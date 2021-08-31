@@ -1,110 +1,121 @@
 package com.example.randomcivgenerator;
 
+import android.content.Context;
+import android.content.res.Resources;
+
+import com.example.randomcivgenerator.logic.locale.LocaleHelper;
+
 import java.util.List;
 
 public class LeaderHandler {
 
     public static List<String> leaderList;
 
-    public LeaderHandler(List<String> leaderList) {
+    Resources resources;
+
+
+    public LeaderHandler(List<String> leaderList, Resources resources) {
         this.leaderList = leaderList;
+        this.resources = resources;
+
+
     }
 
     public void addVanilla() {
-        leaderList.add("cath_de_med_bq");
-        leaderList.add("Catherine De Medici (Magnificence)");
-        leaderList.add("Cleopatra");
-        leaderList.add("Frederick Barbarossa");
-        leaderList.add("Gandhi");
-        leaderList.add("Gilgamesh");
-        leaderList.add("Gorgo");
-        leaderList.add("Harald Hardrada");
-        leaderList.add("Hojo Tokimune");
-        leaderList.add("Montezuma");
-        leaderList.add("Mvemba A Nzinga");
-        leaderList.add("Pedro II.");
-        leaderList.add("Pericles");
-        leaderList.add("Peter");
-        leaderList.add("Philipp II.");
-        leaderList.add("QinShi Huang");
-        leaderList.add("Saladin");
-        leaderList.add("TeddyRoosevelt Bull Moose");
-        leaderList.add("TeddyRoosevelt Rough Rider");
-        leaderList.add("Tomyris");
-        leaderList.add("Trajan");
-        leaderList.add("Victoria");
+        leaderList.add(resources.getString(R.string.cath_de_med_bq));
+        leaderList.add(resources.getString(R.string.cath_de_med_mag));
+        leaderList.add(resources.getString(R.string.cleopatra));
+        leaderList.add(resources.getString(R.string.fred_barbar));
+        leaderList.add(resources.getString(R.string.gandhi));
+        leaderList.add(resources.getString(R.string.gilgamesh));
+        leaderList.add(resources.getString(R.string.gorgo));
+        leaderList.add(resources.getString(R.string.gilgamesh));
+        leaderList.add(resources.getString(R.string.hojo_toki));
+        leaderList.add(resources.getString(R.string.montezuma));
+        leaderList.add(resources.getString(R.string.mvemba));
+        leaderList.add(resources.getString(R.string.pedro));
+        leaderList.add(resources.getString(R.string.pericles));
+        leaderList.add(resources.getString(R.string.peter));
+        leaderList.add(resources.getString(R.string.philipp_ii));
+        leaderList.add(resources.getString(R.string.qinshi));
+        leaderList.add(resources.getString(R.string.saladin));
+        leaderList.add(resources.getString(R.string.teddy_roose_bm));
+        leaderList.add(resources.getString(R.string.teddy_roose_rr));
+        leaderList.add(resources.getString(R.string.tomyris));
+        leaderList.add(resources.getString(R.string.trajan));
+        leaderList.add(resources.getString(R.string.victoria));
     }
     public void addPersiaAndMacedon() {
-        leaderList.add("Alexander");
-        leaderList.add("Cyrus");
+        leaderList.add(resources.getString(R.string.alexander));
+        leaderList.add(resources.getString(R.string.cyrus));
     }
     public void addNubia() {
-        leaderList.add("Amanitore");
+        leaderList.add(resources.getString(R.string.amanitore));
     }
 
     public void addByzantiumAndGaul() {
-        leaderList.add("Basil II.");
-        leaderList.add("Ambiorix");
+        leaderList.add(resources.getString(R.string.basil_ii));
+        leaderList.add(resources.getString(R.string.ambiorix));
     }
 
     public void addVietnamAndKublai() {
-        leaderList.add("Ba Trieu");
-        leaderList.add("Kublai Khan (Mongolian)");
-        leaderList.add("Kublai Khan (Chinese)");
+        leaderList.add(resources.getString(R.string.batrieu));
+        leaderList.add(resources.getString(R.string.kublai_mong));
+        leaderList.add(resources.getString(R.string.kublai_chin));
     }
     public void addKhmerAndIndonesia() {
-        leaderList.add("Jayavarman VII.");
-        leaderList.add("Gitarja");
+        leaderList.add(resources.getString(R.string.jayavarman));
+        leaderList.add(resources.getString(R.string.gitarja));
     }
 
     public void addBabylon() {
-        leaderList.add("Hammurabi");
+        leaderList.add(resources.getString(R.string.hammurabi));
     }
 
     public void addPoland() {
-        leaderList.add("Jadwiga");
+        leaderList.add(resources.getString(R.string.jadigwa));
     }
 
     public void addPortugal() {
-        leaderList.add("Joao III.");
+        leaderList.add(resources.getString(R.string.joao_iii));
     }
 
     public void addAustralia() {
-        leaderList.add("John Curtin");
+        leaderList.add(resources.getString(R.string.john_curtin));
     }
 
     public void addMayaAndColumbia() {
-        leaderList.add("Simon Bolivar");
-        leaderList.add("Lady Six Sky");
+        leaderList.add(resources.getString(R.string.simon_bolivar));
+        leaderList.add(resources.getString(R.string.ladysixsky));
     }
 
     public void addEthiopia() {
-        leaderList.add("Menelik II.");
+        leaderList.add(resources.getString(R.string.menelik));
     }
 
     public void addRiseAndFall() {
-        leaderList.add("Chandragupta");
-        leaderList.add("Genghis Khan");
-        leaderList.add("Lautaro");
-        leaderList.add("Poundmaker");
-        leaderList.add("Robert The Bruce");
-        leaderList.add("Seondeok");
-        leaderList.add("Shaka");
-        leaderList.add("Tamar");
-        leaderList.add("Wilhemina");
+        leaderList.add(resources.getString(R.string.chandragupta));
+        leaderList.add(resources.getString(R.string.genghis_khan));
+        leaderList.add(resources.getString(R.string.lautaro));
+        leaderList.add(resources.getString(R.string.poundmaker));
+        leaderList.add(resources.getString(R.string.robert_the_bruce));
+        leaderList.add(resources.getString(R.string.seondeok));
+        leaderList.add(resources.getString(R.string.shaka));
+        leaderList.add(resources.getString(R.string.tamar));
+        leaderList.add(resources.getString(R.string.wilhemina));
     }
 
     public void addGatherAndStorm() {
-        leaderList.add("Dido");
-        leaderList.add("Eleanor Of Aquitaine (French)");
-        leaderList.add("Elanor Of Aquitaine (English)");
-        leaderList.add("Kristina");
-        leaderList.add("Kupe");
-        leaderList.add("Mansa Musa");
-        leaderList.add("Matthias Corvinus");
-        leaderList.add("Pachacuti");
-        leaderList.add("Suleiman");
-        leaderList.add("Wilfrid Laurier");
+        leaderList.add(resources.getString(R.string.dido));
+        leaderList.add(resources.getString(R.string.eleanor_french));
+        leaderList.add(resources.getString(R.string.eleanor_english));
+        leaderList.add(resources.getString(R.string.kristina));
+        leaderList.add(resources.getString(R.string.kupe));
+        leaderList.add(resources.getString(R.string.mansa_musa));
+        leaderList.add(resources.getString(R.string.matthias_corvinus));
+        leaderList.add(resources.getString(R.string.pachacuti));
+        leaderList.add(resources.getString(R.string.suleiman));
+        leaderList.add(resources.getString(R.string.wilfrid_laurier));
     }
     public static List<String> getLeaderList() {
         return leaderList;

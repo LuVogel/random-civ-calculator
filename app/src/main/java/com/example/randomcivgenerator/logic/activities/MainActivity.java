@@ -121,6 +121,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void leaderButton(View view) {
+        Intent intent = new Intent(this, LeaderActivity.class);
+        startActivity(intent);
+    }
+
 
 
 

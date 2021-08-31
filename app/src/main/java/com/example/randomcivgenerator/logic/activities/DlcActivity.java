@@ -25,7 +25,7 @@ public class DlcActivity extends AppCompatActivity {
     Button confirmButton;
 
     public List<String> leaderList = new ArrayList<>();
-    public LeaderHandler leaderHandler = new LeaderHandler(leaderList);
+    public LeaderHandler leaderHandler;
     Context context;
     Resources resources;
     TextView lang_textView;
@@ -65,6 +65,7 @@ public class DlcActivity extends AppCompatActivity {
             context = LocaleHelper.setLocale(DlcActivity.this, "de");
             resources = context.getResources();
         }
+        leaderHandler = new LeaderHandler(leaderList, resources);
         setLanguageOnButtons(resources);
 
         setAll.setOnClickListener(new View.OnClickListener() {
