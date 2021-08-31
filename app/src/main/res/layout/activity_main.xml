@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logic.activities.MainActivity">
+
+
+    <Button
+        android:id="@+id/dlc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="dlcButton"
+        android:text="@string/dlc_s"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="dlcButton" />
+
+    <Button
+        android:id="@+id/random_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="random_button"
+        android:text="@string/pick_random"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="randomButton" />
+
+    <Button
+        android:id="@+id/leader_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/leaders"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="leaderButton" />
+
+    <RelativeLayout
+        android:id="@+id/relative_language_layout"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/shape_lang_background"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/random_button">
+
+        <TextView
+            android:id="@+id/lang_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/english"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/language_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/drop_lang"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/language"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="155dp"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/random_leader_solution_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
+        android:layout_marginBottom="313dp"
+        app:layout_constraintBottom_toTopOf="@+id/relative_language_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/random_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

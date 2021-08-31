@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".logic.activities.DlcActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:id="@+id/dlc_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxVanilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vanilla"
+                tools:text="vanillaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxRiseAndFall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rise_and_fall"
+                tools:text="riseAndFallBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxGatherAndStorm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gather_and_storm"
+                tools:text="gatherAndStormBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNewFrontierPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_frontier_pass"
+                tools:text="frontierPassBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPersiaAndMacedon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/persia_and_macedon"
+                tools:layout_editor_absoluteX="117dp"
+                tools:layout_editor_absoluteY="135dp"
+                tools:text="persiaAndMacedonBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNubia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nubia"
+                tools:layout_editor_absoluteX="117dp"
+                tools:layout_editor_absoluteY="227dp"
+                tools:text="nubiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxByzantiumAndGaul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/byzantium_and_gaul"
+                tools:layout_editor_absoluteX="117dp"
+                tools:layout_editor_absoluteY="315dp"
+                tools:text="byzantiumAndGaulBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxVietnamAndKublai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vietnam_and_kublai"
+                tools:layout_editor_absoluteX="117dp"
+                tools:layout_editor_absoluteY="400dp"
+                tools:text="vietnamAndKublaiBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxKhmerAndIndonesia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/khmer_and_indonesia"
+                tools:layout_editor_absoluteX="117dp"
+                tools:layout_editor_absoluteY="489dp"
+                tools:text="khmerAndIndonesiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBabylon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/babylon"
+                tools:layout_editor_absoluteX="117dp"
+                tools:layout_editor_absoluteY="579dp"
+                tools:text="babylonBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPoland"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poland"
+                tools:text="polandBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPortugal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/portugal"
+                tools:text="portugalBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAustralia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/australia"
+                tools:text="australiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMayaAndColumbia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/maya_and_columbia"
+                tools:text="mayaAndColumbiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxEthiopia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ethiopia"
+                tools:text="ethiopiaBox" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/checkBoxSetAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="680dp"
+        android:checked="false"
+        android:text="@string/set_all"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="setAllBox" />
+
+    <Button
+        android:id="@+id/confirmDlc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/confirm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="confirmDlcButton" />
+
+    <ImageButton
+        android:id="@+id/returnDlcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmDlc"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
