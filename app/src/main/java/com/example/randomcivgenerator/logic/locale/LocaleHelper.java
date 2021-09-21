@@ -14,6 +14,9 @@ import java.util.Locale;
  * Created by abdalla on 10/2/17.
  */
 
+/**
+ * Localizer for translating Language (found on internet)
+ */
 public class LocaleHelper {
     private static final String SELECTED_LANGUAGE = "Locale.Helper.Selected.Language";
     public static Context onAttach(Context context) {

@@ -13,22 +13,31 @@ import android.widget.TextView;
 
 import com.example.randomcivgenerator.LeaderHandler;
 import com.example.randomcivgenerator.R;
+import com.example.randomcivgenerator.leaderlist.LeaderView;
 import com.example.randomcivgenerator.logic.locale.LocaleHelper;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * Activity to choose DLC's
+ */
 public class DlcActivity extends AppCompatActivity {
+
+    // all CheckBoxes in our Activity
     CheckBox vanilla, riseAndFall, gatherAndStorm, newFrontierPass, persiaAndMacedon, nubia,
             byzantiumAndGaul, vietnamAndKublai, khmerAndIndonesia, babylon, poland, portugal, australia,
             mayaAndColumbia, ethiopia, setAll;
+    // Button to confirm choices
     Button confirmButton;
 
-    public List<String> leaderList = new ArrayList<>();
+    // contains all LeaderViews (name, id of image)
+    public ArrayList<LeaderView> leaderList = new ArrayList<LeaderView>();
+    // handles ArrayList (depending on checkBoxes)
     public LeaderHandler leaderHandler;
     Context context;
     Resources resources;
-    TextView lang_textView;
     String selected_language;
 
 
@@ -37,8 +46,11 @@ public class DlcActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Intent intent = getIntent();
+        // intent is given by MainActivity (language-key)
         selected_language = intent.getStringExtra("language_key");
         setContentView(R.layout.activity_choose_dlc);
+
+        // find checkBoxes with ID
         setAll = findViewById(R.id.checkBoxSetAll);
         vanilla = findViewById(R.id.checkBoxVanilla);
         riseAndFall = findViewById(R.id.checkBoxRiseAndFall);
@@ -56,8 +68,10 @@ public class DlcActivity extends AppCompatActivity {
         ethiopia = findViewById(R.id.checkBoxEthiopia);
         vietnamAndKublai = findViewById(R.id.checkBoxVietnamAndKublai);
 
+        // find confirmButton with ID
         confirmButton = findViewById(R.id.confirmDlc);
 
+        // change Language of DlcActivity if needed
         if (selected_language.equals("ENGLISH")) {
             context = LocaleHelper.setLocale(DlcActivity.this, "en");
             resources = context.getResources();
@@ -65,12 +79,16 @@ public class DlcActivity extends AppCompatActivity {
             context = LocaleHelper.setLocale(DlcActivity.this, "de");
             resources = context.getResources();
         }
+        // create a new LeaderHandler (adds leaders to list)
         leaderHandler = new LeaderHandler(leaderList, resources);
+        // set Text on Buttons depending on chosen language
         setLanguageOnButtons(resources);
 
+        // if SetAll-Checkbox is pressed
         setAll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //set All to True or False (depending on checked or not)
                 if (setAll.isChecked()) {
                     setAllBoxesToTrue();
                 } else {
@@ -79,6 +97,7 @@ public class DlcActivity extends AppCompatActivity {
             }
         });
 
+        // set all dlc's from frontier pass to true/false
         newFrontierPass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,6 +109,7 @@ public class DlcActivity extends AppCompatActivity {
             }
         });
 
+        // check if a Box is Clicked and close activity
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,6 +119,11 @@ public class DlcActivity extends AppCompatActivity {
         });
     }
 
+
+    /**
+     * set Text on Boxes depending on language
+     * @param resources contains current language
+     */
     private void setLanguageOnButtons(Resources resources) {
         vanilla.setText(resources.getString(R.string.vanilla));
         riseAndFall.setText(resources.getString(R.string.rise_and_fall));
@@ -119,6 +144,11 @@ public class DlcActivity extends AppCompatActivity {
         confirmButton.setText(resources.getString(R.string.confirm));
     }
 
+
+    /**
+     * check if a Box is clicked
+     * if Box is clicked, add leader names and images to ArrayList
+     */
     public void checkForBoxes() {
         if (vanilla.isChecked()) {
             leaderHandler.addVanilla();
@@ -165,6 +195,9 @@ public class DlcActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * sets all boxes from frontier pass to true
+     */
     public void setAllFrontierBoxesToTrue() {
         mayaAndColumbia.setChecked(true);
         ethiopia.setChecked(true);
@@ -174,6 +207,9 @@ public class DlcActivity extends AppCompatActivity {
         portugal.setChecked(true);
     }
 
+    /**
+     * set all boxes from frontier pass to false
+     */
     public void setAllFrontierBoxesToFalse() {
         mayaAndColumbia.setChecked(false);
         ethiopia.setChecked(false);
@@ -184,6 +220,9 @@ public class DlcActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * set all boxes to true
+     */
     public void setAllBoxesToTrue() {
         vanilla.setChecked(true);
         riseAndFall.setChecked(true);
@@ -201,6 +240,10 @@ public class DlcActivity extends AppCompatActivity {
         vietnamAndKublai.setChecked(true);
         portugal.setChecked(true);
     }
+
+    /**
+     * set all boxes to false
+     */
     public void setAllBoxesToFalse() {
         vanilla.setChecked(false);
         riseAndFall.setChecked(false);

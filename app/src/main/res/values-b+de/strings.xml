@@ -22,8 +22,9 @@
     <string name="confirm">Bestätige</string>
     <string name="language">Sprache</string>
 
-    <string name="cath_de_med_bq">Katharina von Medici (Black Queen)</string>
-    <string name="cath_de_med_mag">Katharina von Medici (Magnificence)</string>
+
+    <string name="cath_de_med_bq">Katharina von Medici (Schwarze Königin)</string>
+    <string name="cath_de_med_mag">Katharina von Medici (Erhabenheit)</string>
     <string name="cleopatra">Kleopatra</string>
     <string name="fred_barbar">Friedrich Barbarossa</string>
     <string name="gandhi">Gandhi</string>
@@ -80,6 +81,964 @@
     <string name="pachacuti">Pachacutec</string>
     <string name="suleiman">Süleyman</string>
     <string name="wilfrid_laurier">Wilfrid Laurier</string>
+
+
+    <string name="leader_activity_name">Wähle einen Anführer</string>
+    <string name="no_leader_in_pool">Kein Anführer gewählt, wählen mindestens einen DLC</string>
+    <string name="leader_bonus">Anführer Bonus</string>
+    <string name="leader_abilities">Anführer Fähigkeiten</string>
+    <string name="unique_unit">Spezialeinheit</string>
+    <string name="unique_building">Spezialgebäude</string>
+
+
+    <string name="alexander_bonus">Städte werden nicht kriegsmüde. Alle Militäreinheiten heilen
+        vollständig, wenn dieser Spieler eine Stadt mit einem Weltwunder einnimmt.</string>
+    <string name="alexander_abilities">Erhaltet bei der Eroberung einer Stadt, die keine freie
+        Stadt ist, ein Heureka für jedes Lager oder jeden Campus in der eroberten Stadt und eine
+        Eingebung für jede Heilige Stätte oder jeden Theaterplatz.</string>
+    <string name="alexander_unit_1">Hypaspist - Einzigartige Nahkampf-Spezialeinheit der
+        Makedonier, die den Schwertkämpfer ersetzt. +5 Kampfstärke bei der Belagerung von Bezirken.
+        50% zusätzlicher Unterstützungsbonus.</string>
+    <string name="alexander_unit_2">Hetairos - Spezielle Schwere Kavallerie der Makedonier,
+        die den Reiter ersetzt. Zusätzlich +5 Kampfstärke angrenzend an einen Grossen General.
+        +5 Grosser General-Punkte für Ausschaltung einer feindlichen Einheit. Startet mit einer
+        kostenlosen Beförderung.</string>
+    <string name="alexander_building">Basilikoi Paides - Einzigartiges Gebäude von
+        Makedonien. +25% Kampferfahrung für alle Landnahkampf- und Fernkampfeinheiten, und Hetairoi,
+        die in dieser Stadt ausgebildet werden. Erhalt von +25% Wissenschaft gemessen an den Kosten
+        der Einheit, wenn in dieser Stadt eine militärische Einheit erschaffen wird. Strategisches
+        Ressourcen-Vorratslager +10 (bei Standardgeschwindigkeit). Kann nicht in einem Lagerbezirk
+        gebaut werden, in dem bereits Stallungen sind.</string>
+
+
+    <string name="amanitore_bonus">+20% Produktion für alle Bezirke oder +40%, wenn eine Nubische
+        Pyramide an das Stadtzentrum angrenzt.</string>
+    <string name="amanitore_abilities">+30% Produktion für Fernkampfeinheiten. Alle
+        Fernkampfeinheiten erhalten +50% Kampferfahrung. Minen auf strategischen Ressourcen
+        liefern +1 Produktion. Minen auf Bonus-Ressourcen und Luxusgütern liefern +2 Gold.</string>
+    <string name="amanitore_unit_1">Pitati Bogenschütze - Nubische Spezialeinhei der Antike,
+        die den Bogenschützen ersetzt. Stärker als der Bogenschütze mit zusätzlicher Fortbewegung.
+        Wird zum Armbrustschützen verbessert.</string>
+    <string name="amanitore_building">Nubische Pyramide - Modernisierung, die durch
+        Steinmetzkunst freigeschaltet wird und auf Wüste, Wüstenhügel oder Schwemmland gebaut
+        werden muss. +2 Glauben und +2 Nahrung. Erhält zusätzliche Erträge durch angrenzende
+        Bezirke. +1 Nahrung, wenn angrenzend an ein Stadtzentrum. Für alle anderen Bezirke,
+        die Nachbarschaftsbonusse gwähren: +1 für den entsprechenden Ertrag, wenn der Bezirk
+        angrenzt.</string>
+
+
+    <string name="ambiorix_bonus">Eure Zivilisation erhält Kultur in Höhe von 20% der Kosten der
+        Einheit, wenn eine nicht zivile Einheit ausgebildet wird. Nahkampf-, Kavallerie-Abwehr-
+        und Fernkampfeinheiten erhalten +2 Kampfstärke für jede angrenzende Kampfeinheit.</string>
+    <string name="ambiorix_abilities">Minen gewähren alle nBezirken einen kleinen
+        Nachbarschaftsbonus, erzeugen einen Kulturschock auf herrenlosem Gebiet und erhalten +1
+        Kultur. Spezialbezirke erhalten keinen kleinen Nachbarschaftsbonus, wenn sie an einen
+        anderen Bezirk angrenzen, und sie dürfen nicht an das Stadtzentrum angrenzen.</string>
+    <string name="ambiorix_unit_1">Gaesate - gallische Spezialeinheit der Antike, die den
+        Krieger ersetzt. Diese Einehit ist teurer und erhält +10 Kampfstärke beim Kampf gegen
+        Einheiten mit höherer Grund-Kampfstärke. +5 Kampfstärke gegen Bezirk-Verteidigungen.</string>
+    <string name="ambiorix_building">Oppidum - Ein Bezirk der ausschliesslich Gallien zur
+        Verfügung steht und günstiger sowie früher verfügbar ist als der Bezirk, den er ersetzt,
+        das Industriegebiet. Der Oppidum.Bezirk kann verteidigt werden un verfügt über einen
+        Fernabgriff. Mit dem Bau des ersten Oppidums wird die Lehrlingstechnologie freigeschaltet.
+        +2 Nachbarschaftsbonus auf die Produktion durch Steinbrüche und strategische
+        Ressourcen.</string>
+
+
+    <string name="batrieu_bonus">+5 Kampfstärke für Einheiten, die auf Regenwald-, Sumpf- oder
+        Wald-Geländefeldern kämpfen. +1 Fortbewegung, wenn sie ihre Runde dort beginnen. Beide
+        Bonusse werden verdoppelt, wenn sich dieses Geländefeld in Eurem Territorium
+        befindet.</string>
+    <string name="batrieu_abilities">Land-Spezialbezirke können nur auf Regenwald-, Sumpf- oder
+        Wald-Geländefeldern gebaut werden. Ihr erhaltet folgdene Erträge für jedes Gebäude, das auf
+        einer dieser Geländearten steht: +1 Kultur auf Wald, +1 Wissenschaft auf Regenwald und +1
+        Produktion auf Sumpf. Wald kann mit der Mittelaltermärkte-Ausrichtung gepflanzt werden.</string>
+    <string name="batrieu_unit_1">Voi Chien - Vietnamesische Fernkampf-Spezialeinheit des
+        Mittelalters, die den Armbrustschützen ersetzt. Diese Einheit besitzt zusätliche
+        Fortbewegung und kann sich nach einem Angriff bewegen. Sie ist in der Verteidigung
+        stärker und teurer und besitzt eine bessere Sicht.</string>
+    <string name="batrieu_building">Thanh - Ein Bezirk, der ausschliesslich Vietnam zur
+        Verfügung steht und den Lagerbezirk ersetzt. +2 Kultur für jeden angrenzenden Bezirk.
+        Erhaltet nach der Erforschung Tourismus in gleicehr Höhe wie Kultur. Dieser Bezirk
+        erfordert keine Bevölkerung, ist günstiger zu bauen, kann nicht an das Stadtzentrum
+        angrenzen, gewährt keine Grosse-Persönlichkeit-Punkte und ist kein Spezialbezirk.</string>
+
+
+    <string name="basil_bonus">Schwere und Leichte Kavallerieeinheiten verursachen in Städten die
+        derselben Religion wie Byzanz anhängen, den vollen Schaden. Erlangt die Spezialeinheit
+        Tagma, wenn die Ausrichtung Göttliches Recht entdekct wurde.</string>
+    <string name="basil_abilities">Einheiten erhalten +3 Kampfstärke oder religiöse Stärke für jede
+        heilige Stadt, die zur Religion von Byzanz bekehrt wird (einschliesslich der byzantischen
+        heiligen Stadt). Die Religion von Byzanz breitet sich in nahegelegene Städte aus, wenn eine
+        feindliche Einheit einer Zivilisation oder eines Stadstaats besiegt wird. +1
+        Grosser-Prophet-Punkt durch Städte mit einer Heiligen Städte.</string>
+    <string name="basil_unit_1">Dromone - Byzantische Spezialeinheit der Klassik, die die
+        Quadrieme mit grösserer Reichweite ersetzt und +10 Kampfstärke gegen Einheiten
+        erhält.</string>
+    <string name="basil_unit_2">Tagma - Spezialeinhei des Mittelalters von Basilius II.,
+        die den Ritter ersetzt. Landeinheiten innerhalb von 1 Geländefeld Entfernung zum Tagma
+        erhalten +4 Kampfstärke oder religiöse Stärke.</string>
+    <string name="basil_building">Hippodrom - Ein Bezirk dfer ausschliesslich Byzanz zur
+        Verfügung steht. Ersetzt den Unterhaltungskomplex-Bezirk, bringt +3 Annehmlichkeiten und
+        ist günstiger zu bauen. Wenn das Hippodrom und Gebäude in diesem Bezirk gebaut werden,
+        erhaltet Ihr eine Schwere Kavallerie-Eineheit. Einheiten, die durch diesen Bezirk gwährt
+        werden, verbrauchen für den Unterhalt keine Ressourcen. Kann nicht in Städten mit
+        Wasserpark errichtet werden.</string>
+
+
+    <string name="cath_bq_bonus">Hat 1 Stufe diplomatische Sichtbarkeit mehr als normal bei jeder
+        Zivilisation, die sie getroffen hat. Erhält mit der Schloss-Technologie einen kostenlosen
+        Spion (und die Kapazität für einen zusätlichen Spion). Alle Spione starten als Agenten mit
+        einer kkonstenlosen Beförderung.</string>
+    <string name="cath_bq_abilities">+20% Produktion für Wunder des Mittelalters, der Renaissance und
+        des Industriezeitalters. +100% Tourismus durch Wunder aus beliebigen Zeitaltern.</string>
+    <string name="cath_bq_unit_1">Imperiale Garde - Franzzösische Nahkampfeinheit des
+        Industriezeitalters, die den Linieninfanteristen ersetzt. +10 Kampfstärke auf dem Kontinent
+        Eurer Hauptstadt. Grosser-General-Punkte für das Eliminieren von Einheiten.</string>
+    <string name="cath_bq_building">Chateau - Schaltet die Handwerker-Fähigkeit frei, ein
+        Chateau, die einzigartige Modernisierung Frankreichs zu bauen. +2 Kultur und +1 Gold. +1
+        Anziehungskraft. +1 Kultur für jedes benachbarte Wunder (+2 nach Erforschung der Luftfahr.)
+        +2 Gold auf einem Gelöndefeld mit Flussanteil. Gewährt Tourismus durch Kultur nach der
+        Erforschung vonr Luftfahrt. Kann nur angrenzend an eine Bonus-Ressource oder eine Luxusgut
+        gebaut werden. Kann nicht an ein weiteres Chateau angrenzen.</string>
+
+
+    <string name="cath_mag_bonus">Modernisierte Luxus-Ressourcen, die an Theaterplatz-Bezirke oder
+        Chateaus angrenzen, erhalten +2 Kultur. Kann das Projekt Hoffest in beliebigen Städten mit
+        einem Theaterplatz-Bezirk beginnen.</string>
+    <string name="cath_mag_abilities">+20% Produktion für Wunder des Mittelalters, der Renaissance und
+        des Industriezeitalters. +100% Tourismus durch Wunder aus beliebigen Zeitaltern.</string>
+    <string name="cath_mag_unit_1">Imperiale Garde - Franzzösische Nahkampfeinheit des
+        Industriezeitalters, die den Linieninfanteristen ersetzt. +10 Kampfstärke auf dem Kontinent
+        Eurer Hauptstadt. Grosser-General-Punkte für das Eliminieren von Einheiten.</string>
+    <string name="cath_mag_building">Chateau - Schaltet die Handwerker-Fähigkeit frei, ein
+        Chateau, die einzigartige Modernisierung Frankreichs zu bauen. +2 Kultur und +1 Gold. +1
+        Anziehungskraft. +1 Kultur für jedes benachbarte Wunder (+2 nach Erforschung der Luftfahr.)
+        +2 Gold auf einem Gelöndefeld mit Flussanteil. Gewährt Tourismus durch Kultur nach der
+        Erforschung vonr Luftfahrt. Kann nur angrenzend an eine Bonus-Ressource oder eine Luxusgut
+        gebaut werden. Kann nicht an ein weiteres Chateau angrenzen.</string>
+
+
+    <string name="changdragupta_bonus">Kann einen Exapnsionskrieg erklären, nachdem die Ausrichtung
+        Militärausbildung gelernt wurde. +2 Fortbewegung und +5 Kampfstärke für die ersten 10 Runden
+        nach der Erklärung des Expansionskriegs.</string>
+    <string name="changdragupta_abilities">Erhält Anhänger-Glaubenssatz-Bonusse in einer Stadt von
+        jeder Religion mit mindestnes 1 Anhänger. Städte erhalten eine Annehmlichkeit für jede
+        Religion mit mindestens 1 Anhänger. Missionare haben +2 Streuladungen. +100% religiöser
+        Druck von Euren Handelswegen.</string>
+    <string name="changdragupta_unit_1">Varu - Indische Spezialeinheit der Schweren
+        Kavallerie in der Klassik. Angrenzende feindliche Einheiten erhalten -5
+        Kampfstärke.</string>
+    <string name="changragupta_building">Stufenbrunnen - Schaltet die Handwerker-Fähigkeit
+        frei, einen Stufenbrunnen, die einzigartige Modernisierung Indiens, zu bauen. +1 Nahrung
+        und +1 Wohnraum. +1 Glauben, wenn angrenzende an einen Heilige-Stätte-Bezirk. +1 Nahrung,
+        wenn angrenzend an einen Bauernhof. Zusätzlicher Wohnraum, Glauben und zusätzliche Nahrung
+        beim Fortschritt durch den Technologie- und Ausrichtungsbaum. Verhindert Nahrungsverlust
+        während einer Dürre. Kann nicht auf Hügeln oder angrenzend an einen weiteren Stufenbrunnen
+        gebaut werden.</string>
+
+
+    <string name="cleo_bonus">Eure Handelswege zu anderen Zivilisationen bieten +4 Gold für Ägypten.
+        Die Handelswege anderer Zivilisationen nach Ägypten bieten ihnen +2 Nahrung und +2 Gold für
+        Ägypten. Der Handel mit Verbündeten bietet doppelt so viele Bonus-Allianzpunkte.</string>
+    <string name="cleo_abilities">+15% Produktion für Bezirke und Wunder, wenn sie neben einem Fluss
+        platziert werden. Erleidet keinen Schaden durch Überschwemmungen.</string>
+    <string name="cleo_unit_1">Maryannu Wagen Bogenschütze - Ägyptische Fernkampf-Spezialeinheit der
+        Antike. 4 Fortbewegung bei Start in offenem Gelände.</string>
+    <string name="cleo_building">Sphinx - Schaltet die Handewerker-Fähigkeit frei, eine Sphinx, die
+        einzigartige Modernisierungs Ägypten, zu bauen. +1 Glauben und ++ Kultur. +2
+        Anziehungskraft. +2 Glauben, wenn neben einem Wunder. +1 Kultur beim Bau auf Schwemmland.
+        Weitere Kultur nach der Entdeckung von Naturgeschichte. Gewährt Tourismus nach der
+        Erforschung von Luftfahr. Kann nicht neben einer anderen Sphinx gebaut werden. Kann nicht
+        auf Schnee oder Schneehügeln gebaut werden.</string>
+
+
+    <string name="cyrus_bonus">+2 Fortbewegung für die ersten 10 Runden nach der Erklärung eines
+        Überraschungskriegs gegen eine grosse Zivilisation. +5 Loyalität in besetzten Städten mit
+        einer stationierten Einheit. Das Erklären eines Überraschungskriegs zählt nur bezüglich
+        Groll und Kriegstreiberei als formeller Krieg.</string>
+    <string name="cyrus_abilities">+1 Handelswegkapazität durch die Ausrichtung der Politischen
+        Philosophie. Erhaltet +2 Gold und +1 Kultur durch Handelswege zwischen Euren eigenen
+        Städten. Strassen auf Eurem Gebiet sind eine Stufe fortschrittlicher als üblich.</string>
+    <string name="cyrus_unit_1">Krummsäbel-Kämpfer - Spezialeinheit der Perser, die den
+        Schwertkämpfer ersetzt. Einheit der Nahkampfklasse mit Fernangriff. Reichweite von 2.
+        Starke Verteidigungskraft.</string>
+    <string name="cyrus_building">Pairidaeza - Schaltet die Handwerker-Fähigkeit frei, eine
+        Pairidaeza, die einzigaritge Modernisierung Persiens, zu bauen. +1 Kultur und +2 Gold. +1
+        Anziehungskraft. +1 Kultur, wenn neben einer Heiligen Stätte oder einem Theaterplatz-Bezirk.
+        +1 Gold, wenn neben einem Handels- oder Stadtzentrum. Zusätzlich Kultur und TOurismus beim
+        Fortschritt durch den Technologie- und Ausrichtungsbaum. Kann nicht auf Schnee, Tundra-Hügeln
+        oder neben einer weiteren Pairidaeza gebaut werden.</string>
+
+<!--TODO: translate to German!!-->
+
+    <string name="dido_bonus">Can move their original Capital to any city with a Cothon they
+        founded by completing a unique project in that city. +1 Trade Route capacity for each
+        Government Plaza building and the Government Plaza district. +50% Production toward
+        districts in the city with the Government Plaza.</string>
+    <string name="dido_abilities">Begin the game with teh Writing technology Eureka. Coastal cities
+        founded by Phoenicia and located on the same continent as the Phoenician Capital are 100%
+        Local. Settlers gain +2 Movement and +2 sight range while embarked. Settlers Ignore
+        additional Movement costs from embarking and disembarking.</string>
+    <string name="dido_unit_1">Bireme - Phoenician unique Ancient Era unit that replaces the Galley.
+        Increased Combat Strength and Movement. Trader units are immune to being plundered if they
+        are within 4 tiles of a Bireme and on a water tile.</string>
+    <string name="dido_building">Cothon - A district unique to Phoenicia for naval activity in your
+        city. Replaces the Harbor district and cheaper to build. Must be build on Coast or Lake
+        Terrain adjacent to land. +50% Production towards naval units and Settlers in this city.
+        All wounded naval units in this city\'s borders heal +100HP each turn.</string>
+
+
+    <string name="eleanor_eng_bonus">Great Works in Eleanor\'s cities each cause -1 Loyalty per
+        turn in foreign cities within 9 tiles. A city that leaves another civilization due to a
+        loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor\'s
+        civilization skips the Free City step to join this civilization.</string>
+    <string name="eleanor_eng_abilities">Iron and Coal Mines accumulate 2 more resources per turn.
+        +100% Production towards Military Engineers. Military Engineers receive +2 charges.
+        Buildings that provide additional yields when Powered receive +4 of that yield. +20%
+        Production towards Industrial Zone buildings. Harbor buildings increase Strategic
+        Resource Stockpiles by +10 (on Standard Speed).</string>
+    <string name="eleanor_eng_unit_1">Sea Dog - English unique Renaissance era naval unit that
+        replaces the Privateer. Has a chance to capture defeated enemy ships. Can only be seen by
+        other Naval Raiders unless adjacent to it. Reveals Naval Raiders within sight
+        range.</string>
+    <string name="eleanor_eng_building">Royal Navy Dockyard - A district unique to England for
+        naval activity in your city. Replaces the Harbor district. Also removes the Movement
+        penalty for embarking and disembarking to and from this tile. Must be built on Coast or
+        Lake Terrain adjacent to land. +1 Movement for all naval units built in Dockyard +2 Gold
+        and +4 Loyalty per turn when built on a foreign continent. Cannot be built on Reef.</string>
+
+
+    <string name="eleanor_french_bonus">Great Works in Eleanor\'s cities each cause -1 Loyalty per
+        turn in foreign cities within 9 tiles. A city that leaves another civilization due to a
+        loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor\'s
+        civilization skips the Free City step to join this civilization</string>
+    <string name="eleanor_french_abilities">+20% Production toward Medieval, Renaissance, and
+        Industrial era wonders. Tourism from wonders of any era is +100%.</string>
+    <string name="eleanor_french_unit_1">Garde Imperiale -  French unique Industrial era melee unit
+        that replaces the Line Infantry. +10 X Combat Strength when fighting on your capital\'s
+        continent. Great General points for killing units.</string>
+    <string name="eleanor_french_building">Chateau - Unlocks the Builder ability to construct a
+        Chateau, unique to France. +2 Culture and +1 Gold. +1 Appeal. +1 Culture for every adjacent
+        wonder (becomes +2 after researching Flight). +2 Gold if on a tile containing a River edge.
+        Provides Tourism from Culture after researching Flight. Must be placed adjacent to a Bonus
+        or Luxury resource. Cannot be built adjacent to another Chateau.</string>
+
+
+    <string name="fred_barb_bonus">Additional Military policy slot. +7 Combat Strength when
+        attacking city-states.</string>
+    <string name="fred_barb_abilities">Each city can build one more district than usual (exceeding
+        the normal limit based on Population).</string>
+    <string name="fred_barb_unit_1">U-Boat -  German unique Modern era naval unit that replaces the
+        Submarine. Cheaper to produce, +1 Sight, and +10 Combat Strength when fighting on Ocean
+        tiles. Able to reveal other stealthed units. </string>
+    <string name="fred_barb_building">Hansa - A district unique to Germany for industrial activity.
+        Replaces the Industrial Zone district and cheaper to build. + 2 Production bonus for each
+        adjacent Commercial Hub, Aqueduct, Canal, and Dam districts. +1 Production bonus for each
+        adjacent resource. +1 Production bonus for every two adjacent district tiles.</string>
+
+
+    <string name="gandhi_bonus">+5 Faith for each civilization (including India) they have met that
+        has founded a Religion and is not currently at war. Opposing civilizations receive double
+        the war weariness for fighting against Gandhi.</string>
+    <string name="gandhi_abilities">Receives Follower Belief bonuses in a city from each Religion
+        that has at least 1 Follower. Cities gain an Amenity for every Religion with at least 1
+        Follower. Missionaries have +2 spreads. +100% Religious pressure from your Trade
+        Routes.</string>
+    <string name="gandhi_unit_1">Varu -  Indian unique Classical era heavy cavalry unit. Adjacent
+        enemy units receive -5 Combat Strength.</string>
+    <string name="gandhi_building">Stepwell - Unlocks the Builder ability to construct a Stepwell,
+        unique to India +1 Food and +1 Housing. +1 Faith if adjacent to a Holy Site district.
+        +1 Food if adjacent to a Farm. Additional Housing, Faith, and Food as you advance through
+        the Technology and Civics Tree. Prevents Food loss during Drought. Cannot be built on Hills
+        or adjacent to another Stepwell.</string>
+
+    <string name="genghis_bonus">All cavalry class units gain +3 Combat Strength and a chance to
+        capture defeated enemy cavalry class units.</string>
+    <string name="genghis_abilities">Starting a Trade Route immediately creates a Trading Post in
+        the destination city. Receive an extra level of Diplomatic Visibility for possessing a
+        Trading Post in any city of a civilization. All Mongolian units double the usual Combat
+        Bonus for having a higher level of Diplomatic Visibility than their opponent.</string>
+    <string name="genghis_unit_1">Keshig -  Mongolian unique Medieval Era Ranged Cavalry unit. Can
+        escort moving civilian and support units at their higher Movement speed.</string>
+    <string name="genghis_building">Ordu - A building unique to Mongolia. Grants an ability that
+        gives +1 Movement to Heavy and Light Cavalry trained in this city. +25% combat experience
+        for all cavalry and siege class units trained in this city. Strategic Resource Stockpiles
+        increased +10 (on Standard Speed). May not be built in an Encampment district that already
+        has a Barracks.</string>
+
+
+    <string name="gilga_bonus">When at war with a common foe, they and their allies share pillage
+        rewards and share combat experience gains if within 5 tiles. Their Alliances gain Alliance
+        Points for being at war with a common foe. +5 Combat Strength against units of players at
+        war with you and your ally.</string>
+    <string name="gilga_abilities">When you capture a Barbarian Outpost, receive a Tribal Village
+        reward in addition to the usual Gold. Pay half the usual cost to levy city-state
+        units.</string>
+    <string name="gilga_unit_1">War-Cart - Sumerian unique Ancient era unit. Stronger than all
+        other starting units. No penalties against anti-cavalry units. 4. Movement if this unit
+        starts in open terrain.</string>
+    <string name="gilga_building">Ziggurat - Unlocks the Builder ability to construct a Ziggurat,
+        unique to Sumeria. +2 Science. +1 Culture if next to River. Cannot be built on
+        Hills.</string>
+
+
+    <string name="gitarja_bonus">Naval units can be purchased with Faith. Religious units pay no
+        movement to embark or disembark. +2 Faith to City Centers that are adjacent to Coast or
+        Lake tiles.</string>
+    <string name="gitarja_abilities">Coast and Lake tiles provide a minor adjacency bonus for Holy
+        Site, Campus, Industrial Zone, and Theater Square districts. +1 Amenity from entertainment
+        to each Entertainment Complex adjacent to a Coast or Lake tile. </string>
+    <string name="gitarja_unit_1">Jong - Indonesian unique Medieval era naval unit that replaces
+        the Frigate. Formation units all inherit escort\'s Movement speed and +5 Combat Strength
+        when in a formation.</string>
+    <string name="gitarja_building">Kampung - Unlocks the Builder ability to construct a kampung,
+        unique to Indonesia. +1 Production and +1 Housing. +1 Food for each adjacent Fishing Boat.
+        Additional Production, Housing, and Tourism as you advance through the Technology and
+        Civics Tree. Must be placed on a Coast or Lake tile adjacent to a sea resource.</string>
+
+
+    <string name="gorgo_bonus">Combat victories provide Culture equal to 50% of the Combat Strength
+        of the defeated unit. (on Standard Speed) +1. Combat Strength for every Military Policy
+        slotted.</string>
+    <string name="gorgo_abilities">One extra Wildcard policy slot in any government.</string>
+    <string name="gorgo_unit_1">Hoplite - Greek unique Ancient era anti-cavalry unit that replaces
+        the Spearman. +10 Combat Strength if there is at least one adjacent Hoplite unit.</string>
+    <string name="gorgo_building">Acropolis -  A district unique to Greece for cultural sites.
+        Replaces the Theater Square district and cheaper to build. Awards 1 Envoy when completed.
+        +1 Culture bonus for each adjacent district and an additional +1 Culture bonus for adjacent
+        City Center. +2 Culture bonus for each adjacent wonder, Entertainment Complex, and Water
+        Park. Can only be built on Hills.</string>
+
+
+    <string name="hammu_bonus">When each specialty district type except the Government Plaza is
+        constructed for the first time receive the lowest Production cost building that can
+        currently be constructed in that district. Receive an Envoy when any other district is
+        constructed for the first time.</string>
+    <string name="hammu_abilities">Eurekas provide all of the Science for technologies.
+        -50% Science per turn. </string>
+    <string name="hammu_unit_1">Sabum Kibittum - Babylonian unique Ancient era melee unit. +17
+        Combat Strength against Heavy and Light Cavalry promotion class units. This unit has 3
+        Movement and sight.</string>
+    <string name="hammu_building">Palgum - A building unique to Babylon. +1 Housing and +2
+        Production. Freshwater tiles receive +1 Food. City must be adjacent to a River.</string>
+
+
+    <string name="harald_bonus">Allows coastal raiding for all naval melee units and +50%
+        Production toward all naval melee units. Receive Science from pillaging and coastal raiding
+        Mines in addition to Gold. Pillaging or coastal raiding Quarries, Pastures, Plantations,
+        and Camps provide Culture in addition to Faith. Gain the Viking Longship unique unit
+        with Sailing.</string>
+    <string name="harald_abilities">Units gain the ability to enter Ocean tiles after researching
+        the Shipbuilding technology. Naval melee units heal in neutral territory. Units ignore
+        additional Movement costs from embarking and disembarking.</string>
+    <string name="harald_unit_1">Berserker - Norwegian unique Medieval era melee unit that replaces
+        the Man-At-Arms. 4 Movement if this unit starts in enemy territory. +10 Combat Strength
+        when attacking and -5 Combat Strength when defending against melee attacks.</string>
+    <string name="harald_unit_2">Viking Longship - Norwegian unique Ancient era naval unit that
+        replaces the Galley. Can pillage enemy coastal lands and capture civilians if adjacent
+        using its coastal raiding ability. 4 Movement while in coastal waters.</string>
+    <string name="harald_building">Stave Church - A building unique to Norway. Required to purchase
+        Apostles and Inquisitors with Faith. Holy Site districts get an additional standard
+        adjacency bonus from Woods. +1 Production to each coastal resource tile in this
+        city.</string>
+
+
+    <string name="hojo_bonus">Land units receive +5 Combat Strength in land tiles adjacent to
+        Coast; naval units receive +5 Combat Strength in shallow water tiles. Builds Encampment,
+        Holy Site and Theater Square districts in half the time. Units do not receive damage from
+        Hurricanes. Civilizations that are at war with Japan receive +100% unit damage from
+        Hurricanes in Japanese territory.</string>
+    <string name="hojo_abilities">All districts receive an additional standard adjacency bonus for
+        being adjacent to another district.</string>
+    <string name="hojo_unit_1">Samurai - Japanese unique Medieval era melee unit that replaces the
+        Man-At-Arms. Does not suffer combat penalties when damaged.</string>
+    <string name="hojo_building">Electronics Factory - A building unique to Japan. Provides +4
+        Culture to this city after researching the Electricity technology. Its Production bonus is
+        extended to all City Centers within 6 tiles that do not already have a bonus from this
+        building type.</string>
+
+
+    <string name="jadigwa_bonus">Poland\'s majority religion becomes the dominant religion in
+        cities that loses a tile to a Polish Culture Bomb. Holy Sites gain major Faith adjacency
+        bonus from adjacent Encampments. All Relics provide bonus Faith (+2), Culture (+2) and
+        Gold (+4).</string>
+    <string name="jadigwa_abilities">Culture Bomb adjacent tiles when completing an Encampment or
+        Fort inside friendly territory. One Military policy slot in the current government is
+        converted to a Wildcard slot.</string>
+    <string name="jadigwa_unit_1">Winged Hussar - Polish unique Renaissance era unit that
+        replaces the Cuirassier. Pushes defending enemy units back from their hex in any battle
+        where they score more damage. Defenders that cannot retreat suffer additional
+        damage.</string>
+    <string name="jadigwa_building">Sukiennice - A building unique to Poland. International Trade
+        Routes from this city gain +2 Production; domestic Trade Routes gain +4 Gold. +1 Trade
+        Route capacity, if this city does not yet have a Lighthouse building.</string>
+
+    <string name="jaya_bonus"> Holy Sites are granted a Major adjacency with Rivers, a Culture Bomb,
+        Food equal to its adjacency bonus, and +2 Housing if on a River.</string>
+    <string name="jaya_abilities">Cities with an Aqueduct receive +1 Amenity from entertainment
+        and +1 Faith for every population. Farms provide +2 Food if adjacent to an Aqueduct and +1
+        Faith if adjacent to a Holy Site.</string>
+    <string name="jaya_unit_1">Khmer unique Medieval era siege unit that replaces the Trebuchet.
+        This unit has a higher Melee and Range Strength than the Trebuchet. It can move and shoot
+        in the same turn and exerts zone of control.</string>
+    <string name="jaya_building">Prasat - +6 Faith. A building unique to Khmer. Replaces the
+        Temple. Required to purchase Apostles and Inquisitors with Faith. +0.5 Culture for every
+        population in this city. Once Flight is researched receive +10 Tourism if the city
+        population is 10 or higher and +20 Tourism if the city population is 20 or higher.</string>
+
+
+    <string name="joao_bonus">All units receive +1 sight. +1 Trade Route capacity when a
+        civilization is met. Open Borders with all city-states.</string>
+    <string name="joao_abilities">International Trade Routes must originate from a coastal city and
+        can only reach cities on the coast or with a Harbor, but receive +50% towards all yields.
+        Trader units have +50% range over water, and can embark as soon as they are unlocked.</string>
+    <string name="joao_unit_1">Nau - Portuguese unique naval melee unit that replaces the Caravel. Starts with 1 free
+        Promotion and is less maintenance. Has two charges to build Feitorias.</string>
+    <string name="joao_building">Feitoria - Unlocks the Nau ability to construct a Feitoria, unique to Portugal.
+        Provides +4 Gold and +1 Production. Trade routes sent to this city from Portugal gain +4 Gold and
+        +1 Production. Can only be built adjacent to Luxury or Bonus resources in territory
+        belonging to other Civilizations or City-States that you have Open Borders with. Must be
+        built on a Coast or Lake tile adjacent to land and not adjacent to another Feitoria.
+        Feitorias cannot be removed.</string>
+    <string name="joao_building_2">Navigation School - A building unique to Portugal. +25%
+        Production towards naval units in this city. +1 Science for every two coast or lake tiles
+        in this city. +1 Great Admiral and +1 Great Scientist point per turn.</string>
+
+
+    <string name="jcurtin_bonus">+100% Production if they have either received a declaration of war
+        or liberated a city in the past 10 turns.</string>
+    <string name="jcurtin_abilities"> +3 Housing in coastal cities. Pastures trigger a Culture Bomb.
+        Yields from Campuses, Commercial Hubs, Holy Sites and Theater Squares are +1 in tiles with
+        Charming Appeal, +3 in Breathtaking.</string>
+    <string name="jcurtin_unit_1">Digger - Australian unique Modern era unit that replaces Infantry.
+        +10 Combat Strength when fighting on Coastal tiles. +5 Combat Strength when fighting on
+        Neutral or Foreign Territory. </string>
+    <string name="jcurtin_building">Outback Station - Unlocks the Builder ability to construct an
+        Outback Station, unique to Australia +1 Food and +1 Production. +1 Food for each adjacent
+        Pasture. Additional Food and Production as you advance through the Technology and Civic
+        Tree for adjacent Outback Stations and Pastures. Can only be built in Desert, Desert
+        Hills, Grassland, and plains tiles.</string>
+
+
+    <string name="kristina_bonus">Buildings with at least three Great Work slots and wonders with
+        at least two Great Work slots are automatically themed when they have all their slots
+        filled. She may construct the Queen\'s Bibliotheque in the Government Plaza.</string>
+    <string name="kristina_abilities">Sweden gains 50 Diplomatic Favor when earning a Great Person
+        (on Standard Speed). Sweden receives +1 Great Engineer point from Factories and +1 Great
+        Scientist point from Universities. Having Sweden in the game adds three unique World
+        Congress competitions starting in the Industrial Era.</string>
+    <string name="kristina_unit_1">Carolean - Swedish unique Renaissance Era unit that replaces
+        the Pike and Shot. Faster than the Pike and Shot. +3 Combat Strength per unused
+        Movement</string>
+    <string name="kristina_building">Open-Air Museum - Unlocks the Builder ability to construct an
+        Open-Air Museum, unique to Sweden. Provides +2 Loyalty per turn in this city. +2 Culture
+        and +2 Tourism for each type of terrain (Snow, Tundra, Desert, Plains or Grassland) in
+        which at least one Swedish city is founded. One per city. Tiles with Open-Air Museums
+        cannot be swapped. </string>
+    <string name="kristina_building_2">Queen\'s Bibliotheque -  A building unique to Sweden. This
+        building provides 2 slots of Writing, Music, and any type of Art. Awards +1 Governor
+        Title. CAROLEAN Swedish unique Renaissance Era unit that replaces the Pike and Shot.
+        Faster than the Pike and Shot. +3 Combat Strength per unused Movement</string>
+
+
+    <string name="kublai_china_bonus">One extra Economic policy slot in any government. Receive a
+        random Eureka and Inspiration when establishing a Trading Post in another Civilization\'s
+        city for the first time.</string>
+    <string name="kublai_china_abilities">Eurekas and Inspirations provide 50% of civics and
+        technologies instead of 40%. When completing a wonder receive a random Eureka and
+        Inspiration from the era of the wonder, if available. </string>
+    <string name="kublai_china_unit_1">Crouching Tiger - Chinese unique Medieval era unit. Ranged
+        unit with a Range of 1 and high combat strength. </string>
+    <string name="kublai_china_building">Great Wall - Unlocks the Builder ability to construct the
+        Great Wall, unique to China. +2 Gold. Provides an increase to Defense. Bonus to Gold if
+        adjacent to other segments. Additional Culture and Tourism as you advance through the
+        Technology Tree for adjacent segments. Must be built in a line along the borders of your
+        empire. Can only be pillaged (never destroyed) by natural disasters.</string>
+
+
+    <string name="kublai_mong_bonus">One extra Economic policy slot in any government. Receive a
+        random Eureka and Inspiration when establishing a Trading POst in another Civilization\'s
+        city for the first time.</string>
+    <string name="kublai_mong_abilities">Starting a Trade Route Immediately creates a Trading Post
+        in the destination city. Receive an extra level of Diplomatic Visibility for possessing a
+        Trading Post in any city of a civilization. All Mongolian units double the usual Combat
+        Bonus for having a higher level of Diplomatic Visibility than their opponent.</string>
+    <string name="kublai_mong_unit_1">Keshig - Mongolian unique Medieval Era Ranged Cavalry unit.
+        Can escort moving civilian and support units at their higher Movement speed.</string>
+    <string name="kublai_mong_building">Ordu - A building unique to Mongolia. Grants an ability
+        that gives +1 Movement to Heavy and Light Cavalry trained in this city. +25% combat
+        experience for all cavalry and siege class units trained in this city. Strategic Resource
+        Stockpiles. Increased +10 (on Standard Speed). May not be built in an Encampment district
+        that already has a Barracks.</string>
+
+
+
+    <string name="kupe_bonus">Begin the game in an Ocean tile. Gain a free Builder and +1 Population
+    when settling your first city. The Palace receives +3 Housing and +1 Amenity. +2 Science and +2
+    Culture per turn before you settle your first city.</string>
+    <string name="kupe_abilities">Begin the game with the Sailing and Shipbuilding technologies
+    unlocked and with the ability to enter Ocean tiles. Embarked units gain +2 Movement. Unimproved
+    Woods and Rainforest are +1 Production. Additional +1 Production from Mercantilism and +2
+    Production from Conservation. Fishing Boats provide +1 Food and a Culture Bomb to adjacent
+    tiles. Resources cannot be harvested. Great Writers cannot be earned.</string>
+    <string name="kupe_unit_1">Toa - Maori unique Classical era melee unit. Adjacent enemy units
+    receive -5 Combat Strength. Can build the unique Pa improvement.</string>
+    <string name="kupe_building">Marae - A building unique to Maori. +1 Culture and Faith to all of
+    this city\'s tiles with a passable feature or natural wonder. After Flight is researched receive
+    +1 Tourism to all of this city\'s tiles with a feature or natural wonder. Costs no maintenance.
+    Has not Great Work slots.</string>
+    <string name="kupe_building_2">Pa - Unlocks the Toa ability to construct a Pa, unique to Maori.
+    Occupying unit receives +4 dDefense Strength, and automatically gains 2 turns of fortification.
+    A Maori unit occupying a Pa heals even if they just moved or attacked. Must be built on a
+    Hill tile.</string>
+
+
+    <string name="ladyss_bonus">Non capital cities within 6 tiles of the Capital gain +10% to all
+    yields and when founded receive a builder. Other non capital cities receive -15% to all yields.
+    +5 Combat Strength to units within 6 tiles of the capital.</string>
+    <string name="ladyss_abilities">Settling adjacent to Fresh Water and Coast does not provide
+    extra Housing, instead each Farm provides additional +1 Housing, +1 Production for every
+    adjacent Observatory, and +1 Gold. +1 Amenity for every Luxury adjacent to the City
+        Center.</string>
+    <string name="ladyss_unit_1">Hul\'che - Mayan unique Ancient Era ranged unit that replaces the
+    Archer. Strong ranged attack. +5 Combat Strength when fighting a wounded opponent.</string>
+    <string name="ladyss_building">Observatory - A district unique to the Maya for scientific
+    endeavors. Replaces the Campus district and cheaper to build. +2 Science bonus for adjacent
+    Plantations. +1 Science bonus for every two adjacent farm or district tiles.</string>
+
+
+    <string name="lautaro_bonus">+10 Combat Strength when fighting Free Cities or civilizations that
+    area in a Golden or Heroic Age. Defeating an enemy unit within the borders of an enemy city
+    causes that city to lose 20 Loyalty and 30 loyalty if that civilization is in a Golden or
+    Heroic Age.</string>
+    <string name="lautaro_abilities">Cities with an Established Governor provide +5% Production, and
+    +10% experience in combat towards all units trained in this city. These numbers are tripled in
+    cities not founded by the Mapuche. All cities within 9 tiles of a city with your Governor gain
+    +4 Loyalty per turn towards your civilization.</string>
+    <string name="lautaro_unit_1">Malon Raider - Mapuche unique Renaissance Era unit. +5 Combat
+    Strength bonus if within 4 hexes of friendly territory. Pillaging costs 1 Movement.</string>
+    <string name="lautaro_building">Chemamull - Unlocks the Builder ability to construct a
+    Chemamull, unique to Mapuche. +1 Production. Provides Culture equal to 75% of the tile\'s Appeal.
+    Additional Tourism after researching Flight. Minimum Appeal of Breathtaking. </string>
+
+
+    <string name="mansa_bonus">International Trade Routes gain +1 Gold for every flat Desert tile in
+    the origin city. Receive +1 Trade Capacity every time you enter a Golden Age.</string>
+    <string name="mansa_abilities">City Centers gain +1 Faith and +1 Food for every adjacent Desert
+    and Desert HIlls tiles. Mines receive -1 Production and +4 Gold. May purchase Commercial Hub
+    district buildings with Faith. -30% Production toward constructing buildings or training units.
+    </string>
+    <string name="mansa_unit_1">Mandekalu Cavalry - Mali unique Medieval Era unit that replaces the
+    Knight. Trader units are immune to begin plundered if they are within 4 tiles of a Mandekalu
+    Cavalry and on a land tile. Combat victories provide Gold equal to 100% of that unit\'s base
+    Combat Strength (on Standard Speed).</string>
+    <string name="mansa_building">Suguba - A district unique to Mali specializing in finance and
+        trade that replaces the Commercial Hub. Units, Buildings, and Districts are 20% cheaper to
+        purchase with Gold and Faith in this city. +2 Gold bonus for each adjacent Holy Site.
+    +2 Gold bonus from a tile containing a River edge. +1 Gold bonus for every two adjacent
+        district tiles.</string>
+
+
+    <string name="math_corv_bonus">Levied units gain an ability giving them +2 Movement and +5 Combat
+    Strength. It costs 75% less Gold and resources to upgrade Levied units. If you Levy troops from
+    a City-State receive 2 Envoys with that City-State. Gain the Black Army unique unit when the
+    Castles technology is researched.</string>
+    <string name="math_corv_abilities">+50% Production to Districts and Buildings constructed
+        across a river from a City Center.</string>
+    <string name="math_corv_unit_1">Huszar - Hungarian unique Industrial era unit that replaces
+        Cavalry. +3 Combat Strength for every active Alliance.</string>
+    <string name="math_corv_unit_2">Hungarian unique Medieval Era unit that replaces the Courser.
+        +3 Combat Strength for each adjacent Levied unit.</string>
+    <string name="math_corv_building">Thermal Bath - A building unique to Hungary. +2 Amenities and
+        +2 Production extends to each city center within 6 tiles. These bonuses apply once to a
+        city, and multiple copies of this building within 6 tiles of a city center do not provide
+        additional bonuses. This city receives +3 Tourism and +2 additional Amenities if there is
+        at least one Geothermal Fissure in this city\'s borders.</string>
+
+
+    <string name="menelik_bonus">Receive Science and Culture equal to 15% of your Faith generation
+        in cities founded on Hills. Units receive +4 Combat Strength on Hills.</string>
+    <string name="menelik_abilities">Ethiopia\'s International Trade Routes grand +0.5 Faith per
+    resource at the origin. Improved resources provide +1 Faith for each copy the city owns. Can
+    purchase Archaeological Museums and Archaeologists with Faith.</string>
+    <string name="menelik_unit_1">Oromo Cavalry - Ethiopian unique Medieval era light cavalry unit.
+        Stronger and greater sight than the Courser that it replaces. Receives no Movement penalty
+        from moving in Hills.</string>
+    <string name="menelik_building">Unlocks the Builder ability to construct a Rock-Hewn Church,
+        unique to Ethiopia. +1 Faith. +1 Faith for every adjacent Mountain and Hills tile. Provides
+        Tourism from Faith, after researching Flight. +1 Appeal. Can only be pillaged (never
+        destroyed) by natural disasters. Can only be built on HIlls or Volcanic Soil not adjacent
+        to another Rock-Hewn Church.</string>
+
+
+    <string name="monte_bonus">Luxury resources in his territory provide an Amenity to 2 extra
+        cities. Military units receive +1 Combat Strength when attacking for each different
+        Luxury resource improved in Aztec lands.</string>
+    <string name="monte_abilities">Spend Builder charges to complete 20% of the original district
+        cost.</string>
+    <string name="monte_unit_1">Eagle Warrior - Aztec unique Ancient era unit that replaces the
+    Warrior. Has a chance to capture other civilization\'s military units by turning them into
+    Builders.</string>
+    <string name="monte_building">Tlachtli - A building unique to the Aztecs. Provides 2 Amenities,
+        +2 Culture, +2 Faith, and Great General Point. Provides +1 Tourism after advancing to the
+        Conservation Civic.</string>
+
+
+    <string name="mvemba_bonus">May not build Holy Site districts, gain Great Prophets, or found
+        Religions. Gains all Beliefs of any Religion that has established itself in a majority of
+        his cities. Receives an Apostle each time he finishes a M\'banza or Theater Square district
+        (of that city\'s majority Religion).</string>
+    <string name="mvemba_abilities">+2 Food, +2 Production, +1 Faith and +4 Gold from each Relic,
+        Artifact, and Sculpture. Great Work of Art in addition to the usual Culture. Receive 50%
+        more Great Artist, Great Musician, and Great Merchant points. Palace has slots for 5
+        Great Works.</string>
+    <string name="mvemba_unit_1">Ngao Mbeba - Kongo unique Classical era unit that replaces the
+        Swordsman. +10 Combat Strength when defending against ranged attacks. Can move and see
+        through Woods and Rainforest.</string>
+    <string name="mvemba_building">M\'banza - A district unique to Kongo that can only be
+        constructed in Rainforest or Woods. Replaces the Neighborhood district but is available
+        earlier and cheaper to build. Provides +5 Housing, +2 Food, and +4 Gold, regardless of
+        Appeal.</string>
+
+
+    <string name="pacha_bonus">Domestic Trade Routes gain +1 Food for every Mountain tile in the
+        origin city. Gain the Qhapaq Nan improvement when Foreign Trade civic is
+        discovered.</string>
+    <string name="pacha_abilities">Citizens may work Mountain tiles. Mountain tiles provide +2
+    Production and an additional +1 Production when the game reaches the Industrial Era. +1 Food to
+    Mountain tiles for every adjacent Terrace Farm.</string>
+    <string name="pacha_unit_1">Warak\'aq - Incan unique Medieval era unit that replaces the
+    Skirmisher. Stronger at ranged combat than the Skirmisher and +1 additional attack per
+    turn.</string>
+    <string name="pacha_building">Terrace Farm - Unlocks the Builder ability to construct a Terrace
+        Farm, unique to the Inca. +1 Food. Provides +1 Housing. +1 Food for each adjacent Mountain
+        Tile. Gain +2 Production if adjacent to Fresh Water and not an Aqueduct district. Additional
+        Food as you advance through the Civics and Technology Tree for adjacency with other Terrace
+        Farms. can be placed on Grassland Hills, Plains Hill,s and Desert Hills.</string>
+    <string name="pacha_building_2">Qhapaq Nan - Unlocks the Builder ability to construct a Qhapaq
+        Nan, unique to Pachacuti. Acts as a movement portal on a mountain range, allowing units to
+        move into it and exit from another portal at the cost of 2 Movement. Trade Routes traveling
+        through it can multiply the Gold they get from districts at their destination. Can only be
+        built on an adjacent Mountain tile. Cannot be pillaged or removed.</string>
+
+
+    <string name="pedro_bonus">After recruiting or patronizing a Great Person, 20% of its Great
+        Person point cost is refunded. </string>
+    <string name="pedro_abilities">Rainforest tiles provide +1 adjacency bonus for Campus,
+        Commercial Hub, Holy Site, and Theater Square districts, and grand +1 Appeal to adjacent
+        tiles, instead of the usual -1.</string>
+    <string name="pedro_unit_1">Minas Geraes - Brazilian unique Industrial era unit that replaces
+        the Battleship. Stronger than the Battleship. Unlocked by Nationalism.</string>
+    <string name="pedro_building">Street Carnival - A district unique to Brazil. Replaces the
+        Entertainment Complex district, and provides +2 Amenities. Also unlocks the Carnival
+        project, which grants an additional +1 Amenity when underway and a variety of Great People
+        points once completed. Cannot be build in a city with a Copacabana.</string>
+    <string name="pedro_building_2">Copacabana - A district unique to Brazil. Replaces the Water Park
+        district, and provides +2 Amenities. Also unlocks the Carnival project, which grants an
+        additional +1 Amenity when underway and a variety of Great People points once completed.
+        Cannot be built in a city with a Street Carnival. Cannot be built on Reef.</string>
+
+
+    <string name="pericles_bonus">+5% Culture per city-state you are the Suzerain of.</string>
+    <string name="pericles_abilities">One extra Wildcard policy slot in any government.</string>
+    <string name="pericles_unit_1">Hoplite - Greek unique Ancient era anti-cavalry unit that replaces
+        the Spearman. +10 Combat Strength if there is at least one adjacent Hoplite unit.</string>
+    <string name="pericles_building">Acropolis -  A district unique to Greece for cultural sites.
+        Replaces the Theater Square district and cheaper to build. Awards 1 Envoy when completed.
+        +1 Culture bonus for each adjacent district and an additional +1 Culture bonus for adjacent
+        City Center. +2 Culture bonus for each adjacent wonder, Entertainment Complex, and Water
+        Park. Can only be built on Hills.</string>
+
+
+    <string name="peter_bonus">Receives Science or Culture from Trade Routes to civilizations that
+    are more advanced that are more advanced than Russia. +1 per 3 technologies or civics
+        ahead.</string>
+    <string name="peter_abilities">Extra territory upon founding cities. +1 Faith and ++ Production
+    from Tundra. Units do not receive damage from Blizzards. Civilizations that are at war with
+    Russia receive +100% unit damage form Blizzards in Russian territory.</string>
+    <string name="peter_unit_1">Cossack - Russian unique Industrial era unit that replaces Cavalry.
+    Stronger than Cavalry, and gains +5 Combat Strength when fighting in or adjacent to its home
+    territory. Can move after attacking if Movement points remain.</string>
+    <string name="peter_building">Lavra - A district unique to Russia for religious activity.
+    Replaces the Holy Site district and cheaper to build. Your city border grows by one tile each
+    time a Great Person is expended in this city. The Lavra provides +1 Great Writer point per turn
+    with a Shrine, +1 Great Artist point per turn with a Temple, and +1 Great Musician point per
+    turn with a Worship building.</string>
+
+
+    <string name="philipp_bonus">Inquisitors can Remove Heresy one extra time. Inquisitors eliminate
+    100% of the presence of other Religions. Combat and Religious units have a bonus of +5 Combat
+    Strength against players following other Religions.</string>
+    <string name="philipp_abilities">May form Fleets and Armadas with Mercantilism, instead of
+    Nationalism and Mobilization. Trade Routes receive +3 Gold, +2 Faith, and +1 Production. Trade
+    Routes between multiple continents receive triple these numbers. Cities not on your original
+    Capital\'s continent receive +25% Production towards districts and a builder when
+        founded.</string>
+    <string name="philipp_unit_1">Conquistador - Spanish unique Renaissance era unit that replaces
+    the Musketman. +10 Combat Strength when there is a religious unit within one hex. If this unit
+    captures a city or is adjacent to a city when it is captured, the city will automatically adopt
+    the Conquistador player\'s Religion as the dominant Religion.</string>
+    <string name="philipp_building">Mission - Unlocks the Builder ability to construct a Mission,
+    unique to Spain. +2 Faith. +2 Faith, +1 Production, and +1 Food if on a different continent than
+    your Capital. +1 Science for every adjacent Campus and Holy Site district. Additional Science
+    once Cultural Heritage is discovered. +2 Loyalty per turn for cities with a Mission Improvement
+        adjacent to the City Center and not on your original Capital\'s continent.</string>
+
+
+    <string name="pound_bonus">All Alliance types provide Shared Visibility. Your outgoing Trade
+        Routes grand +1 Food to Poundmaker per Camp or Pasture at the destination. Trade Routes
+        sent to your cities grant +1 Gold to Poundmaker per Camp or Pasture at the
+        destination.</string>
+    <string name="pound_abilities">+1 Trade Route capacity and a free Trader with the Pottery
+        technology. Unclaimed tiles within 3 tiles of a Cree city come under Cree control when a
+        Trader first moves into them.</string>
+    <string name="pound_unit_1">Okihtcitaw - Cree unique Ancient era unit that replaces the Scout.
+    Strong reconnaissance unit. Starts with 1 free promotion.</string>
+    <string name="pound_building">Mekewap - Unlocks the Builder ability to construct a Mekewap,
+    unique to Cree. Provides +1 Production and +1 Housing. +1 Gold if adjacent to a Luxury resource.
+    For every 2 adjacent Bonus Resources +1 Food. Additional Production, Gold, Food, and Housing as
+    you advance through the Civics and Technology Tree. Must be placed adjacent to a Bonus or
+        Luxury resource. Cannot be build adjacent to another Mekewap.</string>
+
+
+    <string name="qinshi_bonus">When building Ancient and Classical wonders you may spend Builder
+    charges to complete 15% of the original wonder cost. Builders receive an additional charge.
+    Canals are unlocked with teh Masonry technology.</string>
+    <string name="qinshi_abilities">Eurekas and Inspirations provide 50% of civics and technologies
+    instead of 40%. When completing a wonder receive a random Eureka and Inspiration from the era of
+    the wonder, if available.</string>
+    <string name="qinshi_unit_1">Crouching Tiger Chinese unique Medieval era unit. Ranged
+        unit with a Range of 1 and high combat strength. </string>
+    <string name="qinshi_building">Great Wall - Unlocks the Builder ability to construct the
+        Great Wall, unique to China. +2 Gold. Provides an increase to Defense. Bonus to Gold if
+        adjacent to other segments. Additional Culture and Tourism as you advance through the
+        Technology Tree for adjacent segments. Must be built in a line along the borders of your
+        empire. Can only be pillaged (never destroyed) by natural disasters.</string>
+
+
+    <string name="robtb_bonus">Can declare a War of Liberation after gaining the Defensive Tactics
+    Civic. +100% Production and +2 Movement for the first 10 turns after declaring a War of
+    Liberation.</string>
+    <string name="robtb_abilities">Happy cities receive an additional +5% Science and +5% Production.
+    Happy cities generate +1 Great Scientist point per Campus and +1 Great Engineer point per
+    Industrial Zone. Ecstatic cities double all these amounts.</string>
+    <string name="robtb_unit_1">Highlander - Scottish unique Industrial era unit that replaces the
+    Ranger. Strong reconnaissance unit. +5 Combat Strength bonus when fighting in Hill and Forest
+    terrain.</string>
+    <string name="robtb_building">Golf Course - Unlocks the Builder ability to construct a Golf
+    Course, unique to Scotland. +2 Amenities and +2 Gold. +1 Culture if adjacent to a City Center
+    district and +1 Culture if adjacent to an Entertainment Complex district. Additional Tourism and
+    Housing as you advance through the Civics and Technology Tree. Cannot be placed in Desert or
+    Desert Hills. Once per city. Tiles with Golf Courses cannot be swapped. +1 Appeal.</string>
+
+
+    <string name="saladin_bonus">The worship building for their Religion can be purchased by any
+    player for just one-tenth of the usual Faith cost. This worship building is enhanced to add
+    10% to the Science, Faith, and Culture output of Arabian cities.</string>
+    <string name="saladin_abilities">Automatically receive the final Great Prophet when the next-to-
+    last one is claimed (if you have not earned a Great Prophet already). +1 Science for each
+        foreign city following Arabia\'s Religion.</string>
+    <string name="saladin_unit_1">Mamluk - Arabian unique Medieval era unit that replaces the Knight.
+    Heals at the end of every turn, even after moving or attacking.</string>
+    <string name="saladin_building">Madrasa - A building unique to Arabia. Bonus Faith equal to the
+    adjacency bonus of the Campus district.</string>
+
+
+    <string name="seon_bonus">Governors established in a city provide +3% Culture and Science for
+        each Promotion they have earned, including their first.</string>
+    <string name="seon_ability">Mines receive +1 Science for every adjacent Seowon district. Farms
+    receive +1 Food for every adjacent Seowon district.</string>
+    <string name="seon_unit_1">Hwacha - Korean unique Renaissance era unit that replaces the Field
+    Cannon. High Ranged Attack Strength. Cannot move and attack in the same turn.</string>
+    <string name="seon_building">Seowon - A district unique to Korea for scientific endeavors.
+    Replaces the Campus district. +4 Science. -1 Science for every adjacent district tile. Must be
+    built on Hills.</string>
+
+
+    <string name="shaka_bonus">May form Corps (Mercenaries Civic) and Armies (Nationalism Civic)
+    earlier. An additional +5 Base Combat Strength to both Corps and Armies.</string>
+    <string name="shaka_abilities">Cities with a garrisoned unit get +3 Loyalty per turn, or +5 if
+    it is a Corps or Army. Conquering a city with a unit will upgrade it into a Corps or Army, if
+    the proper Civics are unlocked.</string>
+    <string name="shaka_unit_1">Impi - Zulu unique Medieval era unit that replaces the Pikeman.
+    Increased Flanking bonus, low cost and low maintenance. Earns XP faster.</string>
+    <string name="shaka_building">Ikanda - A district unique to Zulu which replaces the Encampment.
+    Provides +1 Housing. ONce the Civic or Technology prerequisite is met, Corps and Armies can be
+    built outright. Buildings in the Ikanda receive +2 Gold and +1 Science. Faster Corps and Army
+    creation.</string>
+
+
+    <string name="simon_bonus">Earn a Comandante General when the game enters a new era.</string>
+    <string name="simon_abilities">+1 Movement to all units. Promoting a unit does not end that
+    unit\'s turn.</string>
+    <string name="simon_unit_1">Comandante General - A special type of Great Person only available
+    to Simon Bolivar. Each has unique abilities, including a passive effect, and a Retire
+        effect.</string>
+    <string name="simon_unit_2">Llanero - Gran Columbian Industrial era unique that replaces the
+    Cavalry. Low maintenance cost. +2 Combat Strength for every adjacent Llanero. Fully heals when
+    in range of a Comandante General that activates its retire ability.</string>
+    <string name="simon_building">Hacienda - Unlocks the Builder ability to construct a Hacienda,
+    unique to Gran Columbia. +2 Gold, +1 Production, and +0.5 Housing. +1 Good for every two
+    adjacent Plantations (increased to every Plantations with Replaceable Parts). Plantations and
+    Haciendas receive +1 Production for every two adjacent Haciendas (increased to every Hacienda
+        with Rapid Deployment). Can only be build on Plains, Plains Hills, Grassland, and
+        Grassland Hills.</string>
+
+
+    <string name="sulei_bonus">Exclusive unique Governor with military and diplomatic abilities.
+    Gain the Janissary unique unit and a Governor Title whe the Gunpowder technology is
+        researched.</string>
+    <string name="sulei_abilities">+50% Production toward siege units. All siege units gain +5
+    Combat Strength against district defenses. Conquered cities do not lose Population. Cities
+    not founded by the Ottomans gian +1 Amenity and +4 Loyalty per turn.</string>
+    <string name="sulei_unit_1">Barbary Corsair - Ottoman unique Medieval era naval unit that
+    replaces the Privateer. It costs no Movement to coastal raid. Can only be seen by other Naval
+    Raiders unless adjacent to it. Reveals Naval Raiders within sight range.</string>
+    <string name="sulei_unit_2">Janissary - Ottoman unique Renaissance era unit that replaces the
+    Musketman. Starts with a free promotion. Stronger and cheaper than the Musketman. To train a
+    Janissary a city must have a population of at least 2. If a city is founded by the Ottomans and
+    trains a Janissary it loses a population.</string>
+    <string name="sulei_building">Grand Bazaar - A building unique to the Ottomans. Accumulate 1
+    extra strategic resource for every different type of Strategic resource this city has improved.
+    Receive 1 Amenity for every Luxury resource this city has improved.</string>
+
+
+    <string name="tamar_bonus">Combat victories provide Faith equal to 50% of the Combat Strength
+        of the defeated unit (on Standard Speed). Each Envoy you send to a city-state of your
+        majority Religion counts as two Envoys. (must have a majority Religion).</string>
+    <string name="tamar_abilities">When making Dedications at the beginning of a Golden Age or
+        Heroic Age, receive the Normal Age bonus towards improving Era Score in addition to the
+        other bonus. +50% Production towards defensive buildings.</string>
+    <string name="tamar_unit_1">Khevsur - Georgian unique Medieval Era unit that replaces the
+        Man-At-Arms. +7 Combat Strength bonus when fighting in hill terrain. No Movement penalty in
+        hill terrain.</string>
+    <string name="tamar_building">Tsikhe - A building unique to Georgia. Lower Production cost and
+        higher outer defenses than Renaissance Walls. Provides +3 Tourism after advancing to the
+        Conservation Civic. Provides +4 V Faith. When in a Golden Age the Tourism and Faith are
+        +100%.</string>
+
+
+    <string name="teddy_bm_bonus">Breathtaking tiles adjacent to either a Natural Wonder or a
+        Mountain receive +2 Science. Breathtaking tiles adjacent to either a Wonder or Woods
+        receive +2 Culture. All tiles in a city with a National Park are +1 Appeal.</string>
+    <string name="teddy_bm_abilities">All Diplomatic policy slots in the current government are
+        converted to Wildcard slots. +1 Diplomatic Favor per turn for every Wildcard slot in
+        their government.</string>
+    <string name="teddy_bm_unit_1">P-51 Mustang - American unique Atomic era air unit that replaces
+        the Fighter. Gains +5 Combat Strength against fighter aircraft, has +2 flight range,
+        and gains +50% experience. </string>
+    <string name="teddy_bm_building">Film Studio - A building unique to America. +100% Tourism
+        pressure from this city towards other civilizations when the game enters the
+        Modern era.</string>
+
+
+    <string name="teddy_rr_bonus">Units receive +5 Combat Strength on their home continent.
+        Envoys sent to City-States you have a Trade Route to count as two w Envoys. Gain the Rough
+        Rider unique unit with Rifling.</string>
+    <string name="teddy_rr_abilities">All Diplomatic policy slots in the current government are
+        converted to Wildcard slots. +1 Diplomatic Favor per turn for every Wildcard slot in
+        their government.</string>
+    <string name="teddy_rr_unit_1">P-51 Mustang - American unique Atomic era air unit that replaces
+        the Fighter. Gains +5 Combat Strength against fighter aircraft, has +2 flight range,
+        and gains +50% experience. </string>
+    <string name="teddy_rr_unit_2">Rough Rider - American unique Industrial era unit when Teddy
+        Roosevelt is their leader that replaces the Cuirassiers. Culture is earned from kills on
+        their Capital\'s continent. +10 X Combat Strength when fighting on Hills. Lower maintenance
+        cost. </string>
+    <string name="teddy_rr_building">Film Studio - A building unique to America. +100% Tourism
+        pressure from this city towards other civilizations when the game enters the
+        Modern era.</string>
+
+
+    <string name="tomyris_bonus">All units receive +5 Combat Strength when attacking wounded units.
+        When they eliminate a unit, they heal up to 30 hit points.</string>
+    <string name="tomyris_abilities">Receive a second light cavalry unit or Saka Horse Archer each
+        time you train a light cavalry unit or Saka Horse Archer.</string>
+    <string name="tomyris_unit_1">Saka Horse Archer - Scythian unique Classical era unit. Ranged
+        unit with 4 Movement with a Range of 1. </string>
+    <string name="tomyris_building">Kurgan - Unlocks the Builder ability to construct a Kurgan,
+        unique to Scythia. +1 Faith and +3 Gold. +1 Faith for each adjacent Pasture (becomes +2
+        after researching Stirrups). Provides Tourism from Faith after researching Flight. Cannot
+        be built on Hills.</string>
+
+
+    <string name="trajan_bonus">All cities start with an additional City Center building. (Starts
+        with a Monument building in the Ancient era).</string>
+    <string name="trajan_abilities">All cities you found or conquer start with a Trading Post. If
+        in Trade Route range of your Capital, they also start with a road to it. Your Trade Routes
+        earn +1 Gold for passing through Trading Posts in your own cities. </string>
+    <string name="trajan_unit_1">Legion - Roman unique Classical era melee unit that replaces the
+        Swordsman. Can build a Roman Fort. </string>
+    <string name="trajan_building">Bath - A district unique to Rome for city growth. Replaces the
+        Aqueduct district and cheaper to build. It provides this city with a source of fresh water
+        from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing
+        fresh water receive up to 6 Housing. Cities that already have existing fresh water will
+        instead get +2 Housing. If built adjacent to a Geothermal Fissure +1 Amenity. In all cases
+        the Bath provides an additional bonus of +2 Housing and +1 Amenity. Prevents Food loss
+        during Drought. Must be built adjacent to the City Center. Military Engineers can spend
+        a charge to complete 20% of a Bath\'s production.</string>
+
+
+    <string name="victoria_bonus">Each time you found your first city on a continent other than
+        your home continent receive a free melee unit and a Trade Route capacity. Constructing
+        any Royal Navy Dockyard grants you a copy of the strongest naval unit you can build. Gain
+        the Redcoat unique unit when the Military Science technology is researched.</string>
+    <string name="victoria_abilities">Iron and Coal Mines accumulate 2 more resources per turn.
+        +100% Production towards Military Engineers. Military Engineers receive +2 charges.
+        Buildings that provide additional yields when Powered receive +4 of that yield. +20%
+        Production towards Industrial Zone buildings. Harbor buildings increase Strategic Resource
+        Stockpiles by +10 (on Standard Speed). </string>
+    <string name="victoria_unit_1">Redcoat - English unique Industrial era unit when Victoria is
+        their leader that replaces the Line Infantry.+10 Combat Strength when fighting on a
+        continent other than that of your capital\'s. No disembark cost.</string>
+    <string name="victoria_unit_2">Sea Dog - English unique Renaissance era naval unit that
+        replaces the Privateer. Has a chance to capture defeated enemy ships. Can only be seen by
+        other Naval Raiders unless adjacent to it. Reveals Naval Raiders within sight range.</string>
+    <string name="victoria_building">Royal Navy Dockyard - A district unique to England for naval
+    activity in your city. Replaces the Harbor district. Also removes the Movement penalty for
+    embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent
+    to land. +1 Movement for all naval units build in Dockyard. +2 Gold and +4 Loyalty per turn when
+    built on a foreign continent. Cannot be built on Reef.</string>
+
+
+    <string name="wilfried_bonus">Allows Farms to be built on Tundra terrain. After Civil
+        Engineering is unlocked Farms can be built on Tundra Hills. In Snow, Tundra, Snow Hills,
+        and Tundra Hills all Mines provide +2 Production, Lumber Mills provide +2 Production,
+        Camps provide +2 Food, Farms provide +2 Food, and strategic resource accumulation rate is
+        +100%. Reduces the purchase cost of tiles in these terrain types by 50%.</string>
+    <string name="wilfried_abilities">Cannot declare war on City-States or surprise wars. Surprise
+        wars cannot be declared on Canada. For every 100 Tourism per turn earn 11 Diplomatic Favor
+        per turn. Receive +100% Diplomatic Favor from successfully completing an Emergency or
+        Scored Competition. </string>
+    <string name="wilfried_unit_1">Mountie - Canadian unique Modern era unit. Can create 2 National
+        Parks. +5 Combat Strength when fighting within 2 tiles of a National Park. Additional +5
+        Combat Strength when fighting within 2 tiles of a National Park you own.</string>
+    <string name="wilfried_building">Ice Hockey Rink - Unlocks the Builder ability to construct an
+        Ice Hockey Rink, unique to Canada. +1 Amenity. +1 Culture for each adjacent Tundra, Tundra
+        Hills, Snow, and Snow Hills tile. Provides Tourism from Culture once Flight is unlocked.
+        +2 Food and Production once the Professional Sports Civic is unlocked. +46 Culture if
+        adjacent to a Stadium building. Can be built on Tundra, Tundra Hills, Snow, and Snow Hills.
+        One per city. +2 Appeal. </string>
+
+
+    <string name="wilhemina_bonus">Your Trade Routes to your own cities provide +2 Loyalty per turn
+        for the starting city). Trade Routes to foreign cities or from foreign cities provide
+        +2 Culture to you.</string>
+    <string name="wilhemina_abilities">Major adjacency bonus for Campuses, Theater Squares, and
+        Industrial Zones if next to a river. Culture Bomb adjacent tiles when completing a Harbor.
+        +50% Production toward the Dam district and Flood Barrier building.</string>
+    <string name="wilhemina_unit_1">De Zeven Provincien - Netherlands unique Renaissance Era unit
+        that replaces the Frigate. +7 Combat Strength when attacking defensible districts.</string>
+    <string name="wilhemina_building">Polder -  Unlocks the Builder ability to construct a Polder,
+        unique to Netherlands. +1 Food, +1 Production, and +0.5 Housing. +1 Food if adjacent to a
+        Polder improvement. Additional Production, Gold, and Food as you advance through the Civics
+        and Technology Tree. Must be placed on a Coast or Lake tile adjacent to 3 or more passable
+        land tiles. Increases Movement Cost of tile to 3. </string>
+
+
+
+
 
 
 </resources>
