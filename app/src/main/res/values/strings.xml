@@ -311,7 +311,7 @@
         Provides Tourism from Culture after researching Flight. Must be placed adjacent to a Bonus
         or Luxury resource. Cannot be built adjacent to another Chateau.</string>
 
-    
+
     <string name="fred_barb_bonus">Additional Military policy slot. +7 Combat Strength when
         attacking city-states.</string>
     <string name="fred_barb_abilities">Each city can build one more district than usual (exceeding
@@ -558,7 +558,6 @@
         experience for all cavalry and siege class units trained in this city. Strategic Resource
         Stockpiles. Increased +10 (on Standard Speed). May not be built in an Encampment district
         that already has a Barracks.</string>
-
 
 
     <string name="kupe_bonus">Begin the game in an Ocean tile. Gain a free Builder and +1 Population
@@ -1022,51 +1021,6 @@
         Polder improvement. Additional Production, Gold, and Food as you advance through the Civics
         and Technology Tree. Must be placed on a Coast or Lake tile adjacent to 3 or more passable
         land tiles. Increases Movement Cost of tile to 3. </string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </resources>

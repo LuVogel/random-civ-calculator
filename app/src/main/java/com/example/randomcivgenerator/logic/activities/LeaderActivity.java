@@ -1,10 +1,9 @@
 package com.example.randomcivgenerator.logic.activities;
 
-import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import androidx.annotation.Nullable;
@@ -27,6 +26,7 @@ public class LeaderActivity extends AppCompatActivity {
     // confirm choices with this box
     CheckBox confirmLeaderBox;
     private View view;
+    ImageButton infoBox;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class LeaderActivity extends AppCompatActivity {
         // add confirm button to ArrayList
         //leaderList.add(new LeaderView(R.drawable.confirm_button_draw, res.getString(R.string.confirm)));
 
-
+        ImageButton confirmLeader = findViewById(R.id.confirmLeader);
         // create Adapter with current LeaderList (incl. confirm button)
         LeaderViewAdapter leaderArrayAdapter = new LeaderViewAdapter(this, leaderList);
         // find ID of leaderView
@@ -48,16 +48,22 @@ public class LeaderActivity extends AppCompatActivity {
         //show List
         leaderListView.setAdapter(leaderArrayAdapter);
 
-        confirmLeaderBox = findViewById(R.id.leaderView_checkbox);
+        confirmLeader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LeaderActivity.super.onBackPressed();
+            }
+        });
+
 
     }
 
-//TODO: add information for Leader to intent (String)
-    public void infoButton(View view) {
-        Intent intent = new Intent(this, InfoActivity.class);
-//TODO: parcelable interface for sending object
-     //  intent.setDataAndType(leaderView, "leader_name");
-        System.out.println(intent.getStringExtra("leader_name"));
 
-    }
+
+
+
+
+
+
+
 }

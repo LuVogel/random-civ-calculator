@@ -1,8 +1,5 @@
 package com.example.randomcivgenerator.logic.activities;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -12,8 +9,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.randomcivgenerator.LeaderHandler;
 import com.example.randomcivgenerator.R;
@@ -35,21 +36,26 @@ public class MainActivity extends AppCompatActivity {
     // different buttons
     Button pickRandomButton, dlcButton, leaderButton;
     // current LeaderList
-    ArrayList<LeaderView> leaderPool;
+    ArrayList<LeaderView> leaderPool, finalLeaderPool;
     // solution
     String randomPickedLeader;
 
+    static LeaderHandler mainLeaderHandler;
+    ImageButton clearAll;
     RelativeLayout show_language_layout;
     Context context;
     Resources resources;
     int lang_selected;
 
-
+    //TODO: language in leader view
+    //TODO: pick random leader activity
     @SuppressLint("ResourceType")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        leaderPool = new ArrayList<LeaderView>();
+
         //get ID's from XML
         textViewRand = findViewById(R.id.random_leader_solution_textView);
         pickRandomButton = findViewById(R.id.random_button);
@@ -58,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         lang_selector= findViewById(R.id.lang_textView);
         show_language_layout = findViewById(R.id.relative_language_layout);
         lang_textView = findViewById(R.id.random_leader_solution_textView);
+        clearAll = findViewById(R.id.clearAll);
 
         //set language
         if (LocaleHelper.getLanguage(MainActivity.this).equalsIgnoreCase("de")) {
@@ -83,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
             setTitle(resources.getString(R.string.app_name));
             lang_selected = 0;
         }
+        mainLeaderHandler = new LeaderHandler(leaderPool, resources);
 
         // changing language
         show_language_layout.setOnClickListener(new View.OnClickListener() {
@@ -133,16 +141,27 @@ public class MainActivity extends AppCompatActivity {
                 dialogBuilder.create().show();
             }
         });
+
+
+        clearAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LeaderHandler.deleteAll();
+            }
+        });
+
+
         //TODO: not click Listener --> own activity
         pickRandomButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                leaderPool = LeaderHandler.getLeaderList();
-                if (leaderPool == null || leaderPool.size() == 0) {
+                finalLeaderPool = LeaderHandler.deleteUnchecked();
+                if (finalLeaderPool == null || finalLeaderPool.size() == 0) {
                     textViewRand.setText(R.string.no_leader_in_pool);
                 } else {
+
                     Random random = new Random();
-                    randomPickedLeader = leaderPool.get(random.nextInt(leaderPool.size())).getLeaderName();
+                    randomPickedLeader = finalLeaderPool.get(random.nextInt(finalLeaderPool.size())).getLeaderName();
                     textViewRand.setText(randomPickedLeader);
                 }
 
@@ -182,6 +201,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    public static LeaderHandler getMainLeaderHandler() {
+        return mainLeaderHandler;
+    }
 
 
     public void random_button(View view) {

@@ -1,7 +1,5 @@
 package com.example.randomcivgenerator.logic.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -9,7 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.randomcivgenerator.LeaderHandler;
 import com.example.randomcivgenerator.R;
@@ -17,7 +16,6 @@ import com.example.randomcivgenerator.leaderlist.LeaderView;
 import com.example.randomcivgenerator.logic.locale.LocaleHelper;
 
 import java.util.ArrayList;
-import java.util.List;
 
 
 /**
@@ -32,8 +30,9 @@ public class DlcActivity extends AppCompatActivity {
     // Button to confirm choices
     Button confirmButton;
 
-    // contains all LeaderViews (name, id of image)
-    public ArrayList<LeaderView> leaderList = new ArrayList<LeaderView>();
+    public ArrayList<LeaderView> leaderlist;
+
+
     // handles ArrayList (depending on checkBoxes)
     public LeaderHandler leaderHandler;
     Context context;
@@ -80,7 +79,7 @@ public class DlcActivity extends AppCompatActivity {
             resources = context.getResources();
         }
         // create a new LeaderHandler (adds leaders to list)
-        leaderHandler = new LeaderHandler(leaderList, resources);
+        leaderHandler = MainActivity.getMainLeaderHandler();
         // set Text on Buttons depending on chosen language
         setLanguageOnButtons(resources);
 
