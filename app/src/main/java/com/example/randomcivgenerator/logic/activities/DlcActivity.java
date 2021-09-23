@@ -12,10 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.randomcivgenerator.LeaderHandler;
 import com.example.randomcivgenerator.R;
-import com.example.randomcivgenerator.leaderlist.LeaderView;
 import com.example.randomcivgenerator.logic.locale.LocaleHelper;
-
-import java.util.ArrayList;
 
 
 /**
@@ -27,10 +24,10 @@ public class DlcActivity extends AppCompatActivity {
     CheckBox vanilla, riseAndFall, gatherAndStorm, newFrontierPass, persiaAndMacedon, nubia,
             byzantiumAndGaul, vietnamAndKublai, khmerAndIndonesia, babylon, poland, portugal, australia,
             mayaAndColumbia, ethiopia, setAll;
+
     // Button to confirm choices
     Button confirmButton;
 
-    public ArrayList<LeaderView> leaderlist;
 
 
     // handles ArrayList (depending on checkBoxes)
@@ -68,7 +65,7 @@ public class DlcActivity extends AppCompatActivity {
         vietnamAndKublai = findViewById(R.id.checkBoxVietnamAndKublai);
 
         // find confirmButton with ID
-        confirmButton = findViewById(R.id.confirmDlc);
+        confirmButton = findViewById(R.id.confirm_button);
 
         // change Language of DlcActivity if needed
         if (selected_language.equals("ENGLISH")) {

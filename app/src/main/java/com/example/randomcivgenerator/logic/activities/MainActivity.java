@@ -161,8 +161,9 @@ public class MainActivity extends AppCompatActivity {
                 } else {
 
                     Random random = new Random();
-                    randomPickedLeader = finalLeaderPool.get(random.nextInt(finalLeaderPool.size())).getLeaderName();
-                    textViewRand.setText(randomPickedLeader);
+                    Intent intent = new Intent(MainActivity.this, InfoActivity.class);
+                    intent.putExtra("leader_info", finalLeaderPool.get(random.nextInt(finalLeaderPool.size())));
+                    startActivity(intent);
                 }
 
 

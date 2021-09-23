@@ -2,7 +2,6 @@ package com.example.randomcivgenerator.logic.activities;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.ListView;
 
@@ -24,9 +23,8 @@ public class LeaderActivity extends AppCompatActivity {
     // ArrayList with leader names and ID's of images
     public ArrayList<LeaderView> leaderList;
     // confirm choices with this box
-    CheckBox confirmLeaderBox;
-    private View view;
-    ImageButton infoBox;
+
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

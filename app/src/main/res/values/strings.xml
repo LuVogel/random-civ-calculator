@@ -1021,6 +1021,7 @@
         Polder improvement. Additional Production, Gold, and Food as you advance through the Civics
         and Technology Tree. Must be placed on a Coast or Lake tile adjacent to 3 or more passable
         land tiles. Increases Movement Cost of tile to 3. </string>
+    <string name="ok">ok</string>
 
 
 </resources>

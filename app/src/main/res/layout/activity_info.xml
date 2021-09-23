@@ -4,23 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
     android:orientation="vertical"
 
     tools:context=".logic.activities.InfoActivity">
 
     <ImageButton
+        android:id="@+id/infoReturn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="5dp"
-        android:id="@+id/infoReturn"
-        android:layout_marginEnd="15dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_gravity="right"/>
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="5dp"
+        android:contentDescription="TODO"
+        android:minWidth="48dp"
+        android:src="@drawable/return_button"
+        android:minHeight="32dp"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
     <View
         android:layout_width="match_parent"
         android:layout_height="5dp"/>
     <TextView
         android:id="@+id/infoName"
+        android:textSize="25sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <View
@@ -29,6 +39,7 @@
         android:background="@color/black"/>
     <TextView
         android:id="@+id/infoBonus"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <View
@@ -37,6 +48,7 @@
         android:background="@color/black"/>
     <TextView
         android:layout_width="match_parent"
+        android:textSize="20sp"
         android:layout_height="wrap_content"
         android:id="@+id/infoAbility"/>
     <View
@@ -45,6 +57,7 @@
         android:background="@color/black"/>
     <TextView
         android:layout_width="match_parent"
+        android:textSize="20sp"
         android:layout_height="wrap_content"
         android:id="@+id/infoUnit"/>
     <View
@@ -53,6 +66,7 @@
         android:background="@color/black"/>
     <TextView
         android:layout_width="match_parent"
+        android:textSize="20sp"
         android:layout_height="wrap_content"
         android:id="@+id/building"/>
     <View
@@ -61,6 +75,7 @@
         android:background="@color/black"/>
     <TextView
         android:layout_width="match_parent"
+        android:textSize="20sp"
         android:layout_height="wrap_content"
         android:id="@+id/infoSecondUnique"/>
 
