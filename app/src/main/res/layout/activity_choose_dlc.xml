@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:ignore="UselessParent">
-
+        android:background="@drawable/border"
+        android:padding="10dip">
 
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="@string/confirm"
             android:id="@+id/confirm_button"/>
-
-
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -29,119 +26,132 @@
             android:checked="false"
             android:text="@string/set_all"
             tools:text="setAllBox"/>
-
-        <CheckBox
-            android:id="@+id/checkBoxVanilla"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/vanilla"
-            tools:text="vanillaBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxRiseAndFall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/rise_and_fall"
-            tools:text="riseAndFallBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxGatherAndStorm"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/gather_and_storm"
-            tools:text="gatherAndStormBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxNewFrontierPass"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/new_frontier_pass"
-            tools:text="frontierPassBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxPersiaAndMacedon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/persia_and_macedon"
-            tools:text="persiaAndMacedonBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxNubia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nubia"
-            tools:text="nubiaBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxByzantiumAndGaul"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/byzantium_and_gaul"
-            tools:text="byzantiumAndGaulBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxVietnamAndKublai"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/vietnam_and_kublai"
-            tools:text="vietnamAndKublaiBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxKhmerAndIndonesia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/khmer_and_indonesia"
-            tools:text="khmerAndIndonesiaBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxBabylon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/babylon"
-            tools:text="babylonBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxPoland"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/poland"
-            tools:text="polandBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxPortugal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/portugal"
-            tools:text="portugalBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxAustralia"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/australia"
-            tools:text="australiaBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxMayaAndColumbia"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/maya_and_columbia"
-            tools:text="mayaAndColumbiaBox" />
-
-        <CheckBox
-            android:id="@+id/checkBoxEthiopia"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/ethiopia"
-            tools:text="ethiopiaBox" />
-
-
-
-
-
-
     </LinearLayout>
 
 
-</ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="10dip"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxVanilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vanilla"
+                tools:text="vanillaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxRiseAndFall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rise_and_fall"
+                tools:text="riseAndFallBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxGatherAndStorm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gather_and_storm"
+                tools:text="gatherAndStormBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNewFrontierPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_frontier_pass"
+                tools:text="frontierPassBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPersiaAndMacedon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/persia_and_macedon"
+                tools:text="persiaAndMacedonBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNubia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nubia"
+                tools:text="nubiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxByzantiumAndGaul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/byzantium_and_gaul"
+                tools:text="byzantiumAndGaulBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxVietnamAndKublai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vietnam_and_kublai"
+                tools:text="vietnamAndKublaiBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxKhmerAndIndonesia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/khmer_and_indonesia"
+                tools:text="khmerAndIndonesiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBabylon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/babylon"
+                tools:text="babylonBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPoland"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poland"
+                tools:text="polandBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPortugal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/portugal"
+                tools:text="portugalBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAustralia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/australia"
+                tools:text="australiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMayaAndColumbia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/maya_and_columbia"
+                tools:text="mayaAndColumbiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxEthiopia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ethiopia"
+                tools:text="ethiopiaBox" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
