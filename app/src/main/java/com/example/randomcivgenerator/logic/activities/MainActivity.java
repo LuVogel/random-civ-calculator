@@ -16,6 +16,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.randomcivgenerator.IntentPackage;
 import com.example.randomcivgenerator.LeaderHandler;
 import com.example.randomcivgenerator.R;
 import com.example.randomcivgenerator.leaderlist.LeaderView;
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     Context context;
     Resources resources;
     int lang_selected;
+    String selected_language;
 
     //TODO: language in leader view
     //TODO: pick random leader activity
@@ -162,7 +164,14 @@ public class MainActivity extends AppCompatActivity {
 
                     Random random = new Random();
                     Intent intent = new Intent(MainActivity.this, InfoActivity.class);
-                    intent.putExtra("leader_info", finalLeaderPool.get(random.nextInt(finalLeaderPool.size())));
+                    if (lang_selected == 0) {
+                        selected_language = "DEUTSCH";
+                    } else if (lang_selected == 1) {
+                        selected_language = "ENGLISH";
+                    }
+                    IntentPackage intentPackage = new IntentPackage(finalLeaderPool.get(random.nextInt(finalLeaderPool.size())), selected_language);
+                    intent.putExtra("leader_info", intentPackage);
+
                     startActivity(intent);
                 }
 

@@ -1,8 +1,28 @@
 <resources>
+
+    <!--app and activity name-->
     <string name="app_name">Random Civ6 Generator</string>
+    <string name="leader_activity_name">Choose Leader</string>
+
+
+    <!--buttons-->
     <string name="leaders">Leaders</string>
     <string name="dlc_s">DLC\'s</string>
     <string name="pick_random">Pick Random</string>
+    <string name="set_all">Set All</string>
+    <string name="confirm">Confirm</string>
+    <string name="ok">ok</string>
+
+    <!--language-->
+    <string name="english" translatable="false">ENGLISH</string>
+    <string name="language">Language</string>
+
+
+    <!--error messages-->
+    <string name="no_leader_in_pool">No Leader in pool, choose at least one DLC</string>
+
+
+    <!--dlc names-->
     <string name="vanilla">Vanilla</string>
     <string name="persia_and_macedon">Persia And Macedon</string>
     <string name="nubia">Nubia</string>
@@ -18,12 +38,9 @@
     <string name="new_frontier_pass">New Frontier Pass</string>
     <string name="maya_and_columbia">Maya And Gran Colombia</string>
     <string name="australia">Australia</string>
-    <string name="set_all">Set All</string>
-    <string name="confirm">Confirm</string>
-    <string name="language">Language</string>
-    <string name="english" translatable="false">ENGLISH</string>
 
 
+    <!--Leader names-->
     <string name="cath_de_med_bq">Catherine De Medici (Black Queen)</string>
     <string name="cath_de_med_mag">Catherine De Medici (Magnificence)</string>
     <string name="cleopatra">Cleopatra</string>
@@ -84,12 +101,12 @@
     <string name="wilfrid_laurier">Wilfrid Laurier</string>
 
 
-    <string name="leader_activity_name">Choose Leader</string>
-    <string name="no_leader_in_pool">No Leader in pool, choose at least one DLC</string>
+    <!-- Leader Information-->
     <string name="leader_bonus">Leader Bonus</string>
     <string name="leader_abilities">Leader Abilities</string>
     <string name="unique_unit">Unique Unit</string>
     <string name="unique_building">Unique Building</string>
+    <string name="no_second_build_unit">Leader has no second unique unit or unique building</string>
 
 
     <string name="alexander_bonus">Cities do not incur war weariness. 
@@ -1021,7 +1038,7 @@
         Polder improvement. Additional Production, Gold, and Food as you advance through the Civics
         and Technology Tree. Must be placed on a Coast or Lake tile adjacent to 3 or more passable
         land tiles. Increases Movement Cost of tile to 3. </string>
-    <string name="ok">ok</string>
+
 
 
 </resources>

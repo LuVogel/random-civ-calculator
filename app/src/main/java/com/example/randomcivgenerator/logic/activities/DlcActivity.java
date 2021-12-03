@@ -75,6 +75,7 @@ public class DlcActivity extends AppCompatActivity {
             context = LocaleHelper.setLocale(DlcActivity.this, "de");
             resources = context.getResources();
         }
+
         // create a new LeaderHandler (adds leaders to list)
         leaderHandler = MainActivity.getMainLeaderHandler();
         // set Text on Buttons depending on chosen language

@@ -14,8 +14,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.example.randomcivgenerator.IntentPackage;
 import com.example.randomcivgenerator.R;
 import com.example.randomcivgenerator.logic.activities.InfoActivity;
+import com.example.randomcivgenerator.logic.locale.LocaleHelper;
 
 import java.util.ArrayList;
 
@@ -72,7 +74,8 @@ public class LeaderViewAdapter extends ArrayAdapter<LeaderView> {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), InfoActivity.class);
-                intent.putExtra("leader_info", currentLeaderPosition);
+                IntentPackage intentPackage = new IntentPackage(currentLeaderPosition, LocaleHelper.getLanguage(getContext()));
+                intent.putExtra("leader_info", intentPackage);
                 v.getContext().startActivity(intent);
 
             }

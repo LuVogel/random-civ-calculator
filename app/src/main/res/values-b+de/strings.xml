@@ -1,8 +1,25 @@
 <resources>
+
+    <!--app and activity name-->
     <string name="app_name">Zufälliger Civ6 Generator</string>
+    <string name="leader_activity_name">Wähle einen Anführer</string>
+
+    <!--buttons-->
     <string name="leaders">Anführer</string>
     <string name="dlc_s">DLC\'s</string>
     <string name="pick_random">Zufallswahl</string>
+    <string name="set_all">Wähle Alle</string>
+    <string name="confirm">Bestätige</string>
+    <string name="ok">ok</string>
+
+    <!--language-->
+    <string name="language">Sprache</string>
+
+    <!--error messages-->
+    <string name="no_leader_in_pool">Kein Anführer gewählt, wählen mindestens einen DLC</string>
+
+
+    <!--dlc names-->
     <string name="vanilla">Standard</string>
     <string name="persia_and_macedon">Persien und Makedonien</string>
     <string name="nubia">Nubien</string>
@@ -18,11 +35,9 @@
     <string name="new_frontier_pass">New Frontier Pass</string>
     <string name="maya_and_columbia">Maya und Grosskolumbien</string>
     <string name="australia">Australien</string>
-    <string name="set_all">Wähle Alle</string>
-    <string name="confirm">Bestätige</string>
-    <string name="language">Sprache</string>
 
 
+    <!--Leader names-->
     <string name="cath_de_med_bq">Katharina von Medici (Schwarze Königin)</string>
     <string name="cath_de_med_mag">Katharina von Medici (Erhabenheit)</string>
     <string name="cleopatra">Kleopatra</string>
@@ -83,12 +98,13 @@
     <string name="wilfrid_laurier">Wilfrid Laurier</string>
 
 
-    <string name="leader_activity_name">Wähle einen Anführer</string>
-    <string name="no_leader_in_pool">Kein Anführer gewählt, wählen mindestens einen DLC</string>
+    <!--Leader Information-->
     <string name="leader_bonus">Anführer Bonus</string>
     <string name="leader_abilities">Anführer Fähigkeiten</string>
     <string name="unique_unit">Spezialeinheit</string>
     <string name="unique_building">Spezialgebäude</string>
+    <string name="no_second_build_unit">Anführer hat keine zweite Spezialeinheit oder kein zweites
+        Spezialgebäude</string>
 
 
     <string name="alexander_bonus">Städte werden nicht kriegsmüde. Alle Militäreinheiten heilen

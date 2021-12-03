@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!--Layout for choosing dlcs-->
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+    <!--Linear Layout, contains Button and Checkbox, horizontal-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,10 +32,13 @@
             tools:text="setAllBox"/>
     </LinearLayout>
 
+    <!--ScrollView contains Checkboxes for dlcs-->
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <!--LinearLayout, so all Checkboxes are in order-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,7 +46,10 @@
             android:background="@drawable/border"
             android:padding="10dip"
             android:layout_gravity="center_horizontal"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <!--big dlcs (vanilla, rise and fall, gather and storm, new frontier)-->
 
             <CheckBox
                 android:id="@+id/checkBoxVanilla"
@@ -69,19 +79,33 @@
                 android:text="@string/new_frontier_pass"
                 tools:text="frontierPassBox" />
 
-            <CheckBox
-                android:id="@+id/checkBoxPersiaAndMacedon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/persia_and_macedon"
-                tools:text="persiaAndMacedonBox" />
+            <!--specific dlcs -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+
 
             <CheckBox
-                android:id="@+id/checkBoxNubia"
+                android:id="@+id/checkBoxAustralia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/australia"
+                tools:text="australiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBabylon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nubia"
-                tools:text="nubiaBox" />
+                android:text="@string/babylon"
+                tools:text="babylonBox" />
 
             <CheckBox
                 android:id="@+id/checkBoxByzantiumAndGaul"
@@ -91,11 +115,11 @@
                 tools:text="byzantiumAndGaulBox" />
 
             <CheckBox
-                android:id="@+id/checkBoxVietnamAndKublai"
-                android:layout_width="wrap_content"
+                android:id="@+id/checkBoxEthiopia"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/vietnam_and_kublai"
-                tools:text="vietnamAndKublaiBox" />
+                android:text="@string/ethiopia"
+                tools:text="ethiopiaBox" />
 
             <CheckBox
                 android:id="@+id/checkBoxKhmerAndIndonesia"
@@ -105,11 +129,25 @@
                 tools:text="khmerAndIndonesiaBox" />
 
             <CheckBox
-                android:id="@+id/checkBoxBabylon"
+                android:id="@+id/checkBoxMayaAndColumbia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/maya_and_columbia"
+                tools:text="mayaAndColumbiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNubia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/babylon"
-                tools:text="babylonBox" />
+                android:text="@string/nubia"
+                tools:text="nubiaBox" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPersiaAndMacedon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/persia_and_macedon"
+                tools:text="persiaAndMacedonBox" />
 
             <CheckBox
                 android:id="@+id/checkBoxPoland"
@@ -126,32 +164,14 @@
                 tools:text="portugalBox" />
 
             <CheckBox
-                android:id="@+id/checkBoxAustralia"
-                android:layout_width="match_parent"
+                android:id="@+id/checkBoxVietnamAndKublai"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/australia"
-                tools:text="australiaBox" />
-
-            <CheckBox
-                android:id="@+id/checkBoxMayaAndColumbia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/maya_and_columbia"
-                tools:text="mayaAndColumbiaBox" />
-
-            <CheckBox
-                android:id="@+id/checkBoxEthiopia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/ethiopia"
-                tools:text="ethiopiaBox" />
-
+                android:text="@string/vietnam_and_kublai"
+                tools:text="vietnamAndKublaiBox" />
 
         </LinearLayout>
 
-
     </ScrollView>
-
-
 
 </LinearLayout>
